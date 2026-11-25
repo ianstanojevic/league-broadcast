@@ -31,7 +31,7 @@ Du behöver bara **två filer**. Allt annat i det här repot kan du strunta i.
 > **Glöm inte `/v2` i slutet** – annars syns inte stilen.
 
 Klart! League Broadcast måste vara igång när du streamar.
-Så här ska det se ut: [under matchen](share/screenshots/1-ingame.png) · [champ select](share/screenshots/3-champselect.png).
+Så här ska det se ut: [under matchen](share/screenshots/1-ingame.png) · [champ select](share/screenshots/3-champselect.png) · [champion-flikar](share/screenshots/4-champion-flikar.png) · [spelarstatistik](share/screenshots/5-spelarstatistik.png) · [objective-timers](share/screenshots/6-objective-timers.png) · [champ select, mitten](share/screenshots/7-champselect-mitten.png).
 
 **Ska du bara casta (prata)?** Då behöver du inte göra något av det här – bara den som kör OBS och spectatar matchen behöver det.
 
