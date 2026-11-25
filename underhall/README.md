@@ -31,6 +31,7 @@ Kör från repots rot. Kräver Python 3 (+ Pillow för bilderna) och Node 22+.
 | `python underhall/tools/make_logo.py` | Ritar om emblemet i `underhall/arenan/logo/`. |
 | `node underhall/tools/capture.mjs <url> <ut.png> [sek] [selector] [antal]` | Skärmdump av en overlay i 1920×1080 (headless Edge). League Broadcast måste köra mock-data. |
 | `python underhall/tools/make_screenshots.py` | Gör bilderna i `bilder/` av råbilderna i `underhall/raw/`. |
+| `python underhall/tools/make_banner.py` | Gör bannern `bilder/banner.png` (1280×640) – används överst i README:n och som länkförhandsvisning (Settings → Social preview). |
 
 Nya `.lbstyle`-filer efter en ändring: i League Broadcast, Style Editor → klicka på stilsetets namn → Export,
 eller `GET http://localhost:58869/api/style/set/<pre|in>/Arenan/export`.

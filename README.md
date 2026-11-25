@@ -1,9 +1,7 @@
-# Arenan
+![Arenan](bilder/banner.png)
 
 Vår egen stil till League Broadcast för customkvällarna.
 Bara den som kör OBS behöver göra det här.
-
-![Scoreboarden](bilder/2-scoreboard.png)
 
 ## Så här gör du
 
@@ -37,6 +35,8 @@ Klart! Ha League Broadcast igång när du streamar.
 Fastnar du? Hör av dig på Discord.
 
 ## Så ser det ut
+
+![Scoreboarden](bilder/2-scoreboard.png)
 
 ![Under matchen](bilder/1-ingame.png)
 
