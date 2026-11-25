@@ -1,9 +1,10 @@
-"""Make the 1280x640 Arenan banner (GitHub social preview + README header).
+"""Make the 1280x640 Arenan banner (GitHub social preview, shown when the repo link is shared).
 
     python underhall/tools/make_banner.py
 
 Builds an HTML page (real Cinzel / Barlow Condensed from Google Fonts), renders it with
-headless Edge via capture.mjs and crops it to bilder/banner.png.
+headless Edge via capture.mjs and crops it to underhall/arenan/logo/banner.png.
+Upload it under the repo's Settings -> Social preview; it is not shown in the README.
 Needs underhall/raw/ingame_after.png (from capture.mjs) for the scoreboard strip.
 """
 import subprocess
@@ -13,9 +14,8 @@ from PIL import Image
 
 HERE = Path(__file__).resolve().parent
 UNDERHALL = HERE.parent
-ROOT = UNDERHALL.parent
 WORK = UNDERHALL / "raw" / "banner"          # scratch, not in git
-OUT = ROOT / "bilder" / "banner.png"
+OUT = UNDERHALL / "arenan" / "logo" / "banner.png"
 W, H = 1280, 640
 
 
