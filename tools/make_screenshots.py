@@ -2,9 +2,8 @@
 
     python tools/make_screenshots.py
 
-Reads share/screenshots/raw/{ingame,pregame}_{before,after}.png and writes
-share/screenshots/1-ingame.png, 2-scoreboard-fore-efter.png, 3-champselect.png,
-4-champselect-fore-efter.png.
+Reads share/screenshots/raw/{ingame,pregame}_after.png (captures of the Arenan style)
+and writes share/screenshots/1-ingame.png, 2-scoreboard.png and 3-champselect.png.
 """
 from pathlib import Path
 
@@ -44,11 +43,6 @@ def on_backdrop(im):
     return bg
 
 
-def label(img, text, xy, size=34, fill=GOLD):
-    d = ImageDraw.Draw(img)
-    d.text(xy, text, font=font(size), fill=fill, stroke_width=3, stroke_fill=(8, 12, 20))
-
-
 def titled(img, title, subtitle=None):
     """Add a header band with the tournament name above an image."""
     band = 90 if subtitle else 70
@@ -62,17 +56,6 @@ def titled(img, title, subtitle=None):
     return out
 
 
-def stacked(before, after, gap=24, gutter=170):
-    """Before above after, with the labels in their own left margin so they never cover the overlay."""
-    w = max(before.width, after.width) + gutter
-    out = backdrop(w, before.height + after.height + gap)
-    out.alpha_composite(before, (gutter, 0))
-    out.alpha_composite(after, (gutter, before.height + gap))
-    label(out, "FÖRE", (24, before.height // 2 - 20))
-    label(out, "EFTER", (24, before.height + gap + after.height // 2 - 20))
-    return out
-
-
 def save(img, name):
     path = ROOT / name
     img.convert("RGB").save(path, optimize=True)
@@ -80,29 +63,24 @@ def save(img, name):
 
 
 def main():
-    ig_after = Image.open(RAW / "ingame_after.png").convert("RGBA")
-    ig_before = Image.open(RAW / "ingame_before.png").convert("RGBA")
-    pg_after = Image.open(RAW / "pregame_after.png").convert("RGBA")
-    pg_before = Image.open(RAW / "pregame_before.png").convert("RGBA")
+    ingame = Image.open(RAW / "ingame_after.png").convert("RGBA")
+    pregame = Image.open(RAW / "pregame_after.png").convert("RGBA")
 
     # 1. Whole in-game overlay.
-    save(titled(on_backdrop(ig_after), "ARENAN", "Under matchen – scoreboard, champion-flikar och gladiatorloggan"),
+    save(titled(on_backdrop(ingame), "ARENAN", "Under matchen – scoreboard, champion-flikar och gladiatorloggan"),
          "1-ingame.png")
 
-    # 2. Scoreboard close-up, before vs after, enlarged 1.25x so details read on Discord.
+    # 2. Scoreboard close-up, enlarged 1.25x so the details read on Discord.
     box = (180, 0, 1740, 100)
-    sc = lambda im: im.crop(box).resize((round((box[2] - box[0]) * 1.25), round((box[3] - box[1]) * 1.25)),
-                                        Image.LANCZOS)
-    save(titled(stacked(sc(ig_before), sc(ig_after), gap=40), "ARENAN", "Scoreboarden – före och efter"),
-         "2-scoreboard-fore-efter.png")
+    close = ingame.crop(box).resize((round((box[2] - box[0]) * 1.25), round((box[3] - box[1]) * 1.25)),
+                                    Image.LANCZOS)
+    pad = 30
+    framed = backdrop(close.width + 2 * pad, close.height + 2 * pad)
+    framed.alpha_composite(close, (pad, pad))
+    save(titled(framed, "ARENAN", "Scoreboarden"), "2-scoreboard.png")
 
     # 3. Champ select bar.
-    pg_box = (0, 745, 1920, 1080)
-    save(titled(on_backdrop(pg_after.crop(pg_box)), "ARENAN", "Champ select"), "3-champselect.png")
-
-    # 4. Champ select before vs after.
-    save(titled(stacked(pg_before.crop(pg_box), pg_after.crop(pg_box), gap=40), "ARENAN",
-                "Champ select – före och efter"), "4-champselect-fore-efter.png")
+    save(titled(on_backdrop(pregame.crop((0, 745, 1920, 1080))), "ARENAN", "Champ select"), "3-champselect.png")
 
 
 if __name__ == "__main__":

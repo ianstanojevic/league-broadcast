@@ -2,7 +2,7 @@
 
 Vår egen stil för streamen: mörkblått, brons och guld, och gladiatorn som turneringslogga.
 
-![Scoreboarden före och efter](share/screenshots/2-scoreboard-fore-efter.png)
+![Scoreboarden](share/screenshots/2-scoreboard.png)
 
 ## Gör så här (ca 5 minuter)
 
