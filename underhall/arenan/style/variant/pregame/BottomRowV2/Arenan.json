@@ -1492,7 +1492,7 @@
         "label": "Match Name",
         "type": "container",
         "order": 0,
-        "visible": true,
+        "visible": false,
         "isList": false,
         "translateX": "",
         "translateY": ""

@@ -163,6 +163,7 @@ def edit_bottom_row(d):
     # shrank to ~29 px at 1080p.
     d["center"]["container"]["container"]["sizing"]["width"] = "8vw"   # "Tournament Details"
     d["center"]["logo"]["container"]["sizing"]["width"] = "6.5vw"
+    d["center"]["matchName"]["_node"]["visible"] = False   # no "Default Match" text under the logo
 
     def colors(n):
         c = n.get("color")
