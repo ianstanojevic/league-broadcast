@@ -1,0 +1,337 @@
+{
+  "Entries": {
+    "GlobalScoreboard": {
+      "Variant": "Default",
+      "Category": "Global",
+      "IsActive": true
+    },
+    "SpawnTimer": {
+      "Variant": "Default",
+      "Category": "Global",
+      "IsActive": true
+    },
+    "Inhibitor": {
+      "Variant": "Default",
+      "Category": "Global",
+      "IsActive": true
+    },
+    "InhibitorSingle": {
+      "Variant": "Default",
+      "Category": "Global",
+      "IsActive": true
+    },
+    "InhibitorDual": {
+      "Variant": "Default",
+      "Category": "Global",
+      "IsActive": true
+    },
+    "ChampionTabs": {
+      "Variant": "Default",
+      "Category": "Global",
+      "IsActive": true
+    },
+    "PlayerScoreboard": {
+      "Variant": "Default",
+      "Category": "Global",
+      "IsActive": true
+    },
+    "ScoreboardDamageGraph": {
+      "Variant": "Default",
+      "Category": "Graphs",
+      "IsActive": true
+    },
+    "GoldGraph": {
+      "Variant": "Default",
+      "Category": "Graphs",
+      "IsActive": true
+    },
+    "TwitchPoll": {
+      "Variant": "Default",
+      "Category": "Twitch",
+      "IsActive": true
+    },
+    "TwitchPrediction": {
+      "Variant": "Default",
+      "Category": "Twitch",
+      "IsActive": true
+    },
+    "TwitchChatVote": {
+      "Variant": "Default",
+      "Category": "Twitch",
+      "IsActive": true
+    },
+    "DamageComposition": {
+      "Variant": "Default",
+      "Category": "Damage",
+      "IsActive": true
+    },
+    "DamageFlow": {
+      "Variant": "Default",
+      "Category": "Damage",
+      "IsActive": true
+    },
+    "DamageRecap": {
+      "Variant": "Default",
+      "Category": "Damage",
+      "IsActive": true
+    },
+    "DamageSplit": {
+      "Variant": "Default",
+      "Category": "Damage",
+      "IsActive": true
+    },
+    "GoldEfficiency": {
+      "Variant": "Default",
+      "Category": "Damage",
+      "IsActive": true
+    },
+    "ObjectiveDamagePerTeam": {
+      "Variant": "Default",
+      "Category": "Objective",
+      "IsActive": true
+    },
+    "ObjectiveRecap": {
+      "Variant": "Default",
+      "Category": "Objective",
+      "IsActive": true
+    },
+    "SkinDisplay": {
+      "Variant": "Default",
+      "Category": "Graphs",
+      "IsActive": true
+    },
+    "SmiteReaction": {
+      "Variant": "Default",
+      "Category": "Objective",
+      "IsActive": true
+    },
+    "KillParticipation": {
+      "Variant": "Default",
+      "Category": "Graphs",
+      "IsActive": true
+    },
+    "TeamfightTimeline": {
+      "Variant": "Default",
+      "Category": "Graphs",
+      "IsActive": true
+    },
+    "GlobalScoreboardV2": {
+      "Variant": "Arenan",
+      "Category": "Global",
+      "IsActive": true
+    },
+    "SpawnTimerV2": {
+      "Variant": "Default",
+      "Category": "Global",
+      "IsActive": true
+    },
+    "InhibitorV2": {
+      "Variant": "Default",
+      "Category": "Global",
+      "IsActive": true
+    },
+    "ChampionTabsV2": {
+      "Variant": "Arenan",
+      "Category": "Global",
+      "IsActive": true
+    },
+    "PlayerScoreboardV2": {
+      "Variant": "Default",
+      "Category": "Global",
+      "IsActive": true
+    },
+    "RuneDisplayV2": {
+      "Variant": "Default",
+      "Category": "Graphs",
+      "IsActive": true
+    },
+    "ScoreboardDamageGraphV2": {
+      "Variant": "Default",
+      "Category": "Graphs",
+      "IsActive": true
+    },
+    "GoldGraphV2": {
+      "Variant": "Default",
+      "Category": "Graphs",
+      "IsActive": true
+    },
+    "TwitchPollV2": {
+      "Variant": "Default",
+      "Category": "Twitch",
+      "IsActive": false
+    },
+    "TwitchPredictionV2": {
+      "Variant": "Default",
+      "Category": "Twitch",
+      "IsActive": false
+    },
+    "TwitchChatVoteV2": {
+      "Variant": "Default",
+      "Category": "Twitch",
+      "IsActive": false
+    },
+    "DamageCompositionV2": {
+      "Variant": "Default",
+      "Category": "Damage",
+      "IsActive": false
+    },
+    "DamageSplitV2": {
+      "Variant": "Default",
+      "Category": "Damage",
+      "IsActive": false
+    },
+    "DamageFlowV2": {
+      "Variant": "Default",
+      "Category": "Damage",
+      "IsActive": true
+    },
+    "DamageRecapV2": {
+      "Variant": "Default",
+      "Category": "Damage",
+      "IsActive": false
+    },
+    "GoldEfficiencyV2": {
+      "Variant": "Default",
+      "Category": "Damage",
+      "IsActive": true
+    },
+    "ObjectiveDamagePerTeamV2": {
+      "Variant": "Default",
+      "Category": "Objective",
+      "IsActive": true
+    },
+    "ObjectiveRecapV2": {
+      "Variant": "Default",
+      "Category": "Objective",
+      "IsActive": true
+    },
+    "SkinDisplayV2": {
+      "Variant": "Default",
+      "Category": "Graphs",
+      "IsActive": true
+    },
+    "SmiteReactionV2": {
+      "Variant": "Default",
+      "Category": "Objective",
+      "IsActive": true
+    },
+    "KillParticipationV2": {
+      "Variant": "Default",
+      "Category": "Graphs",
+      "IsActive": true
+    },
+    "TeamfightTimelineV2": {
+      "Variant": "Default",
+      "Category": "Graphs",
+      "IsActive": true
+    }
+  },
+  "Global": {
+    "playerFullNameDisplayFormat": "{givenName} \"{alias}\" {familyName}",
+    "color": {
+      "blueSideColor": "#2F8CFFFF",
+      "redSideColor": "#D7372BFF",
+      "neutralColor": "#C9A24AFF"
+    },
+    "fontFamily": "Barlow Condensed",
+    "cameraFrames": {
+      "useSameStyleForSplit": true,
+      "pipFrame": {
+        "enabled": true,
+        "widthPixelsAt1080p": 8,
+        "angleDegrees": 180,
+        "stops": [
+          {
+            "offset": 0,
+            "color": {
+              "lightness": 0.730814,
+              "chroma": 0.115447,
+              "hueDegrees": 85.187,
+              "alpha": 1
+            }
+          },
+          {
+            "offset": 0.25,
+            "color": {
+              "lightness": 0.183113,
+              "chroma": 0.030892,
+              "hueDegrees": 263.383,
+              "alpha": 1
+            }
+          },
+          {
+            "offset": 0.75,
+            "color": {
+              "lightness": 0.183113,
+              "chroma": 0.030892,
+              "hueDegrees": 263.383,
+              "alpha": 1
+            }
+          },
+          {
+            "offset": 1,
+            "color": {
+              "lightness": 0.883324,
+              "chroma": 0.09815,
+              "hueDegrees": 91.702,
+              "alpha": 1
+            }
+          }
+        ],
+        "animation": {
+          "kind": 0,
+          "durationSeconds": 4,
+          "reverse": false
+        }
+      },
+      "splitDivider": {
+        "enabled": true,
+        "widthPixelsAt1080p": 8,
+        "angleDegrees": 180,
+        "stops": [
+          {
+            "offset": 0,
+            "color": {
+              "lightness": 0.730814,
+              "chroma": 0.115447,
+              "hueDegrees": 85.187,
+              "alpha": 1
+            }
+          },
+          {
+            "offset": 0.25,
+            "color": {
+              "lightness": 0.183113,
+              "chroma": 0.030892,
+              "hueDegrees": 263.383,
+              "alpha": 1
+            }
+          },
+          {
+            "offset": 0.75,
+            "color": {
+              "lightness": 0.183113,
+              "chroma": 0.030892,
+              "hueDegrees": 263.383,
+              "alpha": 1
+            }
+          },
+          {
+            "offset": 1,
+            "color": {
+              "lightness": 0.883324,
+              "chroma": 0.09815,
+              "hueDegrees": 91.702,
+              "alpha": 1
+            }
+          }
+        ],
+        "animation": {
+          "kind": 0,
+          "durationSeconds": 4,
+          "reverse": false
+        }
+      }
+    }
+  }
+}

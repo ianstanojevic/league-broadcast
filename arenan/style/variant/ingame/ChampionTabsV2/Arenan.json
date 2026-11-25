@@ -1,0 +1,2308 @@
+{
+  "_node": {
+    "id": "championTabs",
+    "label": "Champion Tabs",
+    "type": "container",
+    "order": 0,
+    "visible": true,
+    "isList": false,
+    "translateX": "",
+    "translateY": ""
+  },
+  "blueTeam": {
+    "_node": {
+      "id": "championTabs.blueTeam",
+      "label": "Blue Team",
+      "type": "container",
+      "order": 0,
+      "visible": true,
+      "isList": false,
+      "translateX": "",
+      "translateY": ""
+    },
+    "stack": {
+      "_node": {
+        "id": "championTabs.blueTeam.stack",
+        "label": "Player Stack",
+        "type": "container",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "animation": {
+          "in": {
+            "enabled": true,
+            "type": "slide",
+            "direction": "left",
+            "duration": "var(--lb-duration-slow)",
+            "delay": "0s",
+            "easing": "var(--lb-easing-enter)",
+            "distance": "1.5rem",
+            "transformOrigin": "",
+            "startScale": "",
+            "startOpacity": "0.001",
+            "blurStrength": "",
+            "stagger": ""
+          },
+          "out": {
+            "enabled": true,
+            "type": "slide",
+            "direction": "left",
+            "duration": "var(--lb-duration-normal)",
+            "delay": "0s",
+            "easing": "var(--lb-easing-exit)",
+            "distance": "1rem",
+            "transformOrigin": "",
+            "startScale": "",
+            "startOpacity": "0.001",
+            "blurStrength": "",
+            "stagger": ""
+          }
+        },
+        "layout": {
+          "layoutStyle": "flex",
+          "flexDirection": "column",
+          "gridColumns": null,
+          "gridRows": null,
+          "gap": "var(--lb-space-4)",
+          "horizontalGap": null,
+          "verticalGap": null,
+          "justifyContent": null,
+          "alignItems": "flex-start",
+          "padding": "",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "color": null,
+          "offsetX": null,
+          "offsetY": null,
+          "blur": null,
+          "spread": null,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "absolute",
+          "top": "8rem",
+          "right": null,
+          "bottom": "",
+          "left": "0px",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "transparent"
+          },
+          "effectType": "",
+          "effectStrength": null
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": {
+            "color": ""
+          },
+          "radius": ""
+        },
+        "customCss": null
+      }
+    },
+    "player": {
+      "_node": {
+        "id": "championTabs.blueTeam.player",
+        "label": "Player Card",
+        "type": "container",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "animation": null,
+        "layout": {
+          "layoutStyle": "grid",
+          "flexDirection": null,
+          "gridColumns": "1fr 2fr",
+          "gridRows": "repeat(3, minmax(0, 1fr))",
+          "gap": null,
+          "horizontalGap": null,
+          "verticalGap": null,
+          "justifyContent": null,
+          "alignItems": null,
+          "padding": "",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "4.5rem",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "4.5rem",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": true,
+          "color": {
+            "color": "#0000008C"
+          },
+          "offsetX": "0",
+          "offsetY": "0.125rem",
+          "blur": "0.5rem",
+          "spread": "0",
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "colors": [
+            {
+              "key": "objectiveGlow",
+              "label": "Objective Glow",
+              "color": {
+                "color": "var(--lb-overlay-info)"
+              }
+            }
+          ],
+          "color": {
+            "color": "var(--lb-overlay-surface-base)"
+          },
+          "effectType": "",
+          "effectStrength": null
+        },
+        "border": {
+          "width": "0 0 0 var(--lb-overlay-team-edge-width)",
+          "style": "solid",
+          "color": {
+            "color": "var(--lb-side-blue)"
+          },
+          "radius": "0 var(--lb-radius-xs) var(--lb-radius-xs) 0"
+        },
+        "customCss": null
+      },
+      "portrait": {
+        "image": {
+          "_node": {
+            "id": "championTabs.blueTeam.player.portrait.image",
+            "label": "Portrait Image",
+            "type": "image",
+            "order": 0,
+            "visible": true,
+            "isList": false,
+            "translateX": "",
+            "translateY": ""
+          },
+          "images": [],
+          "objectFit": "cover",
+          "objectPosition": "center",
+          "championAsset": "",
+          "sizing": {
+            "width": "100%",
+            "minWidth": "",
+            "maxWidth": "",
+            "height": "100%",
+            "minHeight": "",
+            "maxHeight": ""
+          },
+          "shadows": {
+            "isEnabled": false,
+            "color": null,
+            "offsetX": null,
+            "offsetY": null,
+            "blur": null,
+            "spread": null,
+            "inset": false
+          },
+          "customCss": null
+        },
+        "_node": {
+          "id": "championTabs.blueTeam.player.portrait",
+          "label": "Champion Portrait",
+          "type": "image",
+          "order": 0,
+          "visible": true,
+          "isList": false,
+          "translateX": "",
+          "translateY": ""
+        },
+        "container": {
+          "animation": null,
+          "layout": {
+            "layoutStyle": "",
+            "flexDirection": null,
+            "gridColumns": null,
+            "gridRows": null,
+            "gap": null,
+            "horizontalGap": null,
+            "verticalGap": null,
+            "justifyContent": null,
+            "alignItems": null,
+            "padding": "",
+            "margin": ""
+          },
+          "sizing": {
+            "width": "",
+            "minWidth": "",
+            "maxWidth": "",
+            "height": "",
+            "minHeight": "",
+            "maxHeight": ""
+          },
+          "shadows": {
+            "isEnabled": false,
+            "color": null,
+            "offsetX": null,
+            "offsetY": null,
+            "blur": null,
+            "spread": null,
+            "inset": false
+          },
+          "positionTransform": {
+            "positionType": "",
+            "top": "",
+            "right": "",
+            "bottom": "",
+            "left": "",
+            "zIndex": "",
+            "translateX": "",
+            "translateY": ""
+          },
+          "background": {
+            "color": {
+              "color": "transparent"
+            },
+            "effectType": "",
+            "effectStrength": null
+          },
+          "border": {
+            "width": "",
+            "style": "",
+            "color": {
+              "color": ""
+            },
+            "radius": ""
+          },
+          "customCss": null
+        }
+      },
+      "primaryText": {
+        "text": {
+          "_node": {
+            "id": "championTabs.blueTeam.player.name.text",
+            "label": "Player Name Text",
+            "type": "text",
+            "order": 0,
+            "visible": true,
+            "isList": false,
+            "translateX": "",
+            "translateY": ""
+          },
+          "fontFamily": "var(--lb-global-font)",
+          "fontWeight": "700",
+          "fontSize": "var(--lb-font-size-xs)",
+          "textColor": {
+            "color": "var(--lb-overlay-text-primary)"
+          },
+          "textAlignment": "left",
+          "textTransform": "",
+          "textDecoration": "",
+          "lineHeight": "1",
+          "letterSpacing": "",
+          "wordSpacing": "",
+          "textBorder": null,
+          "customCss": null
+        },
+        "_node": {
+          "id": "championTabs.blueTeam.player.name",
+          "label": "Player Name",
+          "type": "container",
+          "order": 0,
+          "visible": true,
+          "isList": false,
+          "translateX": "",
+          "translateY": ""
+        },
+        "container": {
+          "animation": null,
+          "layout": {
+            "layoutStyle": "flex",
+            "flexDirection": null,
+            "gridColumns": null,
+            "gridRows": null,
+            "gap": null,
+            "horizontalGap": null,
+            "verticalGap": null,
+            "justifyContent": "flex-start",
+            "alignItems": "center",
+            "padding": "",
+            "margin": ""
+          },
+          "sizing": {
+            "width": "",
+            "minWidth": "",
+            "maxWidth": "12rem",
+            "height": "",
+            "minHeight": "",
+            "maxHeight": ""
+          },
+          "shadows": {
+            "isEnabled": false,
+            "color": null,
+            "offsetX": null,
+            "offsetY": null,
+            "blur": null,
+            "spread": null,
+            "inset": false
+          },
+          "positionTransform": {
+            "positionType": "relative",
+            "top": "",
+            "right": "",
+            "bottom": "",
+            "left": "",
+            "zIndex": "2",
+            "translateX": "",
+            "translateY": ""
+          },
+          "background": {
+            "color": {
+              "color": "transparent"
+            },
+            "effectType": "",
+            "effectStrength": null
+          },
+          "border": {
+            "width": "",
+            "style": "",
+            "color": {
+              "color": ""
+            },
+            "radius": ""
+          },
+          "customCss": null
+        }
+      },
+      "secondaryText": {
+        "text": {
+          "_node": {
+            "id": "championTabs.blueTeam.player.level.text",
+            "label": "Level / Respawn Text",
+            "type": "text",
+            "order": 0,
+            "visible": true,
+            "isList": false,
+            "translateX": "",
+            "translateY": ""
+          },
+          "fontFamily": "var(--lb-global-font)",
+          "fontWeight": "700",
+          "fontSize": "var(--lb-font-size-sm)",
+          "textColor": {
+            "color": "var(--lb-overlay-text-primary)"
+          },
+          "textAlignment": "left",
+          "textTransform": "",
+          "textDecoration": "",
+          "lineHeight": "1",
+          "letterSpacing": "",
+          "wordSpacing": "",
+          "textBorder": null,
+          "customCss": null
+        },
+        "_node": {
+          "id": "championTabs.blueTeam.player.level",
+          "label": "Level / Respawn",
+          "type": "container",
+          "order": 0,
+          "visible": true,
+          "isList": false,
+          "translateX": "",
+          "translateY": ""
+        },
+        "container": {
+          "animation": null,
+          "layout": {
+            "layoutStyle": "",
+            "flexDirection": null,
+            "gridColumns": null,
+            "gridRows": null,
+            "gap": null,
+            "horizontalGap": null,
+            "verticalGap": null,
+            "justifyContent": null,
+            "alignItems": null,
+            "padding": "",
+            "margin": ""
+          },
+          "sizing": {
+            "width": "",
+            "minWidth": "",
+            "maxWidth": "",
+            "height": "",
+            "minHeight": "",
+            "maxHeight": ""
+          },
+          "shadows": {
+            "isEnabled": false,
+            "color": null,
+            "offsetX": null,
+            "offsetY": null,
+            "blur": null,
+            "spread": null,
+            "inset": false
+          },
+          "positionTransform": {
+            "positionType": "absolute",
+            "top": null,
+            "right": null,
+            "bottom": "33.333%",
+            "left": "calc(33.333% + var(--lb-space-1))",
+            "zIndex": "2",
+            "translateX": "",
+            "translateY": ""
+          },
+          "background": {
+            "colors": [
+              {
+                "key": "respawn",
+                "label": "Respawn Timer",
+                "color": {
+                  "color": "var(--lb-overlay-negative)"
+                }
+              }
+            ],
+            "color": {
+              "color": "transparent"
+            },
+            "effectType": "",
+            "effectStrength": null
+          },
+          "border": {
+            "width": "",
+            "style": "",
+            "color": {
+              "color": ""
+            },
+            "radius": ""
+          },
+          "customCss": null
+        }
+      }
+    },
+    "abilities": {
+      "_node": {
+        "id": "championTabs.blueTeam.abilities",
+        "label": "Abilities",
+        "type": "container",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "animation": null,
+        "layout": {
+          "layoutStyle": "grid",
+          "flexDirection": null,
+          "gridColumns": null,
+          "gridRows": "repeat(3, minmax(0, 1fr))",
+          "gap": "1px",
+          "horizontalGap": null,
+          "verticalGap": null,
+          "justifyContent": null,
+          "alignItems": null,
+          "padding": "1px",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "100%",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "100%",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "color": null,
+          "offsetX": null,
+          "offsetY": null,
+          "blur": null,
+          "spread": null,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "var(--lb-overlay-surface-strong)"
+          },
+          "effectType": "",
+          "effectStrength": null
+        },
+        "border": {
+          "width": "0px",
+          "style": "solid",
+          "color": {
+            "color": "transparent"
+          },
+          "radius": "var(--lb-radius-xs)"
+        },
+        "customCss": null
+      }
+    },
+    "statusBars": {
+      "_node": {
+        "id": "championTabs.blueTeam.status",
+        "label": "Health, Resource and XP",
+        "type": "container",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "animation": null,
+        "layout": {
+          "layoutStyle": "flex",
+          "flexDirection": "column",
+          "gridColumns": null,
+          "gridRows": null,
+          "gap": "1px",
+          "horizontalGap": null,
+          "verticalGap": null,
+          "justifyContent": null,
+          "alignItems": null,
+          "padding": "",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "100%",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "100%",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "color": null,
+          "offsetX": null,
+          "offsetY": null,
+          "blur": null,
+          "spread": null,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "transparent"
+          },
+          "effectType": "",
+          "effectStrength": null
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": {
+            "color": ""
+          },
+          "radius": ""
+        },
+        "customCss": null
+      },
+      "experience": {
+        "_node": {
+          "id": "championTabs.blueTeam.status.experience",
+          "label": "XP Bar",
+          "type": "container",
+          "order": 0,
+          "visible": true,
+          "isList": false,
+          "translateX": "",
+          "translateY": ""
+        },
+        "container": {
+          "animation": null,
+          "layout": {
+            "layoutStyle": "",
+            "flexDirection": null,
+            "gridColumns": null,
+            "gridRows": null,
+            "gap": null,
+            "horizontalGap": null,
+            "verticalGap": null,
+            "justifyContent": null,
+            "alignItems": null,
+            "padding": "",
+            "margin": ""
+          },
+          "sizing": {
+            "width": "",
+            "minWidth": "",
+            "maxWidth": "",
+            "height": "",
+            "minHeight": "",
+            "maxHeight": ""
+          },
+          "shadows": {
+            "isEnabled": false,
+            "color": null,
+            "offsetX": null,
+            "offsetY": null,
+            "blur": null,
+            "spread": null,
+            "inset": false
+          },
+          "positionTransform": {
+            "positionType": "",
+            "top": "",
+            "right": "",
+            "bottom": "",
+            "left": "",
+            "zIndex": "",
+            "translateX": "",
+            "translateY": ""
+          },
+          "background": {
+            "color": {
+              "color": "var(--lb-overlay-brand-primary)"
+            },
+            "effectType": "",
+            "effectStrength": null
+          },
+          "border": {
+            "width": "",
+            "style": "",
+            "color": {
+              "color": ""
+            },
+            "radius": ""
+          },
+          "customCss": null
+        }
+      },
+      "health": {
+        "_node": {
+          "id": "championTabs.blueTeam.status.health",
+          "label": "Health Bar",
+          "type": "container",
+          "order": 0,
+          "visible": true,
+          "isList": false,
+          "translateX": "",
+          "translateY": ""
+        },
+        "container": {
+          "animation": null,
+          "layout": {
+            "layoutStyle": "",
+            "flexDirection": null,
+            "gridColumns": null,
+            "gridRows": null,
+            "gap": null,
+            "horizontalGap": null,
+            "verticalGap": null,
+            "justifyContent": null,
+            "alignItems": null,
+            "padding": "",
+            "margin": ""
+          },
+          "sizing": {
+            "width": "",
+            "minWidth": "",
+            "maxWidth": "",
+            "height": "",
+            "minHeight": "",
+            "maxHeight": ""
+          },
+          "shadows": {
+            "isEnabled": false,
+            "color": null,
+            "offsetX": null,
+            "offsetY": null,
+            "blur": null,
+            "spread": null,
+            "inset": false
+          },
+          "positionTransform": {
+            "positionType": "",
+            "top": "",
+            "right": "",
+            "bottom": "",
+            "left": "",
+            "zIndex": "",
+            "translateX": "",
+            "translateY": ""
+          },
+          "background": {
+            "color": {
+              "color": "var(--lb-overlay-positive)"
+            },
+            "effectType": "",
+            "effectStrength": null
+          },
+          "border": {
+            "width": "",
+            "style": "",
+            "color": {
+              "color": ""
+            },
+            "radius": ""
+          },
+          "customCss": null
+        }
+      },
+      "resource": {
+        "_node": {
+          "id": "championTabs.blueTeam.status.resource",
+          "label": "Resource Bar",
+          "type": "container",
+          "order": 0,
+          "visible": true,
+          "isList": false,
+          "translateX": "",
+          "translateY": ""
+        },
+        "container": {
+          "animation": null,
+          "layout": {
+            "layoutStyle": "",
+            "flexDirection": null,
+            "gridColumns": null,
+            "gridRows": null,
+            "gap": null,
+            "horizontalGap": null,
+            "verticalGap": null,
+            "justifyContent": null,
+            "alignItems": null,
+            "padding": "",
+            "margin": ""
+          },
+          "sizing": {
+            "width": "",
+            "minWidth": "",
+            "maxWidth": "",
+            "height": "",
+            "minHeight": "",
+            "maxHeight": ""
+          },
+          "shadows": {
+            "isEnabled": false,
+            "color": null,
+            "offsetX": null,
+            "offsetY": null,
+            "blur": null,
+            "spread": null,
+            "inset": false
+          },
+          "positionTransform": {
+            "positionType": "",
+            "top": "",
+            "right": "",
+            "bottom": "",
+            "left": "",
+            "zIndex": "",
+            "translateX": "",
+            "translateY": ""
+          },
+          "background": {
+            "colors": [
+              {
+                "key": "energy",
+                "label": "Energy",
+                "color": {
+                  "color": "#F0D78C"
+                }
+              },
+              {
+                "key": "rage",
+                "label": "Fury",
+                "color": {
+                  "color": "var(--lb-side-red)"
+                }
+              },
+              {
+                "key": "heat",
+                "label": "Heat",
+                "color": {
+                  "color": "var(--lb-side-red)"
+                }
+              },
+              {
+                "key": "battlefury",
+                "label": "Battle Fury",
+                "color": {
+                  "color": "var(--lb-side-red)"
+                }
+              },
+              {
+                "key": "dragonfury",
+                "label": "Dragon Fury",
+                "color": {
+                  "color": "var(--lb-side-red)"
+                }
+              },
+              {
+                "key": "gnarfury",
+                "label": "Gnar Fury",
+                "color": {
+                  "color": "var(--lb-side-red)"
+                }
+              },
+              {
+                "key": "ferocity",
+                "label": "Ferocity",
+                "color": {
+                  "color": "var(--lb-side-red)"
+                }
+              },
+              {
+                "key": "bloodwell",
+                "label": "Blood Well",
+                "color": {
+                  "color": "var(--lb-side-red)"
+                }
+              },
+              {
+                "key": "shield",
+                "label": "Shield",
+                "color": {
+                  "color": "#8FA3C4"
+                }
+              },
+              {
+                "key": "wind",
+                "label": "Wind",
+                "color": {
+                  "color": "#8FA3C4"
+                }
+              },
+              {
+                "key": "ammo",
+                "label": "Ammo",
+                "color": {
+                  "color": "var(--lb-side-blue)"
+                }
+              },
+              {
+                "key": "moonlight",
+                "label": "Moonlight",
+                "color": {
+                  "color": "var(--lb-side-blue)"
+                }
+              },
+              {
+                "key": "other",
+                "label": "Other",
+                "color": {
+                  "color": "var(--lb-side-blue)"
+                }
+              }
+            ],
+            "color": {
+              "color": "var(--lb-side-blue)"
+            },
+            "effectType": "",
+            "effectStrength": null
+          },
+          "border": {
+            "width": "",
+            "style": "",
+            "color": {
+              "color": ""
+            },
+            "radius": ""
+          },
+          "customCss": null
+        }
+      }
+    },
+    "stacks": {
+      "text": {
+        "_node": {
+          "id": "championTabs.blueTeam.stacks.text",
+          "label": "Champion Stacks Text",
+          "type": "text",
+          "order": 0,
+          "visible": true,
+          "isList": false,
+          "translateX": "",
+          "translateY": ""
+        },
+        "fontFamily": "var(--lb-global-font)",
+        "fontWeight": "700",
+        "fontSize": "var(--lb-font-size-xs)",
+        "textColor": {
+          "color": "var(--lb-overlay-text-primary)"
+        },
+        "textAlignment": "left",
+        "textTransform": "",
+        "textDecoration": "",
+        "lineHeight": "1",
+        "letterSpacing": "",
+        "wordSpacing": "",
+        "textBorder": null,
+        "customCss": null
+      },
+      "_node": {
+        "id": "championTabs.blueTeam.stacks",
+        "label": "Champion Stacks",
+        "type": "container",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "animation": null,
+        "layout": {
+          "layoutStyle": "",
+          "flexDirection": null,
+          "gridColumns": null,
+          "gridRows": null,
+          "gap": null,
+          "horizontalGap": null,
+          "verticalGap": null,
+          "justifyContent": null,
+          "alignItems": null,
+          "padding": "",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "color": null,
+          "offsetX": null,
+          "offsetY": null,
+          "blur": null,
+          "spread": null,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "absolute",
+          "top": "0px",
+          "right": null,
+          "bottom": null,
+          "left": "calc(33.333% + var(--lb-space-1))",
+          "zIndex": "2",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "transparent"
+          },
+          "effectType": "",
+          "effectStrength": null
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": {
+            "color": ""
+          },
+          "radius": ""
+        },
+        "customCss": null
+      }
+    },
+    "levelUp": {
+      "_node": {
+        "id": "championTabs.blueTeam.levelUp",
+        "label": "Level-up Notification",
+        "type": "container",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "animation": null,
+        "layout": {
+          "layoutStyle": "",
+          "flexDirection": null,
+          "gridColumns": null,
+          "gridRows": null,
+          "gap": null,
+          "horizontalGap": null,
+          "verticalGap": null,
+          "justifyContent": null,
+          "alignItems": null,
+          "padding": "",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "color": null,
+          "offsetX": null,
+          "offsetY": null,
+          "blur": null,
+          "spread": null,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "var(--lb-side-blue)"
+          },
+          "effectType": "",
+          "effectStrength": null
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": {
+            "color": ""
+          },
+          "radius": ""
+        },
+        "customCss": null
+      },
+      "showOnlyMajorLevelUps": true,
+      "animationDuration": 2200,
+      "text": {
+        "_node": {
+          "id": "championTabs.blueTeam.levelUp.text",
+          "label": "Level-up Text",
+          "type": "text",
+          "order": 0,
+          "visible": true,
+          "isList": false,
+          "translateX": "",
+          "translateY": ""
+        },
+        "fontFamily": "var(--lb-global-font)",
+        "fontWeight": "700",
+        "fontSize": "var(--lb-font-size-xl)",
+        "textColor": {
+          "color": "var(--lb-overlay-text-primary)"
+        },
+        "textAlignment": "center",
+        "textTransform": "",
+        "textDecoration": "",
+        "lineHeight": "1",
+        "letterSpacing": "",
+        "wordSpacing": "",
+        "textBorder": null,
+        "customCss": null
+      }
+    },
+    "edge": "left:0"
+  },
+  "redTeam": {
+    "_node": {
+      "id": "championTabs.redTeam",
+      "label": "Red Team",
+      "type": "container",
+      "order": 0,
+      "visible": true,
+      "isList": false,
+      "translateX": "",
+      "translateY": ""
+    },
+    "stack": {
+      "_node": {
+        "id": "championTabs.redTeam.stack",
+        "label": "Player Stack",
+        "type": "container",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "animation": {
+          "in": {
+            "enabled": true,
+            "type": "slide",
+            "direction": "right",
+            "duration": "var(--lb-duration-slow)",
+            "delay": "0s",
+            "easing": "var(--lb-easing-enter)",
+            "distance": "1.5rem",
+            "transformOrigin": "",
+            "startScale": "",
+            "startOpacity": "0.001",
+            "blurStrength": "",
+            "stagger": ""
+          },
+          "out": {
+            "enabled": true,
+            "type": "slide",
+            "direction": "right",
+            "duration": "var(--lb-duration-normal)",
+            "delay": "0s",
+            "easing": "var(--lb-easing-exit)",
+            "distance": "1rem",
+            "transformOrigin": "",
+            "startScale": "",
+            "startOpacity": "0.001",
+            "blurStrength": "",
+            "stagger": ""
+          }
+        },
+        "layout": {
+          "layoutStyle": "flex",
+          "flexDirection": "column",
+          "gridColumns": null,
+          "gridRows": null,
+          "gap": "var(--lb-space-4)",
+          "horizontalGap": null,
+          "verticalGap": null,
+          "justifyContent": null,
+          "alignItems": "flex-end",
+          "padding": "",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "color": null,
+          "offsetX": null,
+          "offsetY": null,
+          "blur": null,
+          "spread": null,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "absolute",
+          "top": "8rem",
+          "right": "0px",
+          "bottom": "",
+          "left": null,
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "transparent"
+          },
+          "effectType": "",
+          "effectStrength": null
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": {
+            "color": ""
+          },
+          "radius": ""
+        },
+        "customCss": null
+      }
+    },
+    "player": {
+      "_node": {
+        "id": "championTabs.redTeam.player",
+        "label": "Player Card",
+        "type": "container",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "animation": null,
+        "layout": {
+          "layoutStyle": "grid",
+          "flexDirection": null,
+          "gridColumns": "2fr 1fr",
+          "gridRows": "repeat(3, minmax(0, 1fr))",
+          "gap": null,
+          "horizontalGap": null,
+          "verticalGap": null,
+          "justifyContent": null,
+          "alignItems": null,
+          "padding": "",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "4.5rem",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "4.5rem",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": true,
+          "color": {
+            "color": "#0000008C"
+          },
+          "offsetX": "0",
+          "offsetY": "0.125rem",
+          "blur": "0.5rem",
+          "spread": "0",
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "colors": [
+            {
+              "key": "objectiveGlow",
+              "label": "Objective Glow",
+              "color": {
+                "color": "var(--lb-overlay-info)"
+              }
+            }
+          ],
+          "color": {
+            "color": "var(--lb-overlay-surface-base)"
+          },
+          "effectType": "",
+          "effectStrength": null
+        },
+        "border": {
+          "width": "0 var(--lb-overlay-team-edge-width) 0 0",
+          "style": "solid",
+          "color": {
+            "color": "var(--lb-side-red)"
+          },
+          "radius": "var(--lb-radius-xs) 0 0 var(--lb-radius-xs)"
+        },
+        "customCss": null
+      },
+      "portrait": {
+        "image": {
+          "_node": {
+            "id": "championTabs.redTeam.player.portrait.image",
+            "label": "Portrait Image",
+            "type": "image",
+            "order": 0,
+            "visible": true,
+            "isList": false,
+            "translateX": "",
+            "translateY": ""
+          },
+          "images": [],
+          "objectFit": "cover",
+          "objectPosition": "center",
+          "championAsset": "",
+          "sizing": {
+            "width": "100%",
+            "minWidth": "",
+            "maxWidth": "",
+            "height": "100%",
+            "minHeight": "",
+            "maxHeight": ""
+          },
+          "shadows": {
+            "isEnabled": false,
+            "color": null,
+            "offsetX": null,
+            "offsetY": null,
+            "blur": null,
+            "spread": null,
+            "inset": false
+          },
+          "customCss": null
+        },
+        "_node": {
+          "id": "championTabs.redTeam.player.portrait",
+          "label": "Champion Portrait",
+          "type": "image",
+          "order": 0,
+          "visible": true,
+          "isList": false,
+          "translateX": "",
+          "translateY": ""
+        },
+        "container": {
+          "animation": null,
+          "layout": {
+            "layoutStyle": "",
+            "flexDirection": null,
+            "gridColumns": null,
+            "gridRows": null,
+            "gap": null,
+            "horizontalGap": null,
+            "verticalGap": null,
+            "justifyContent": null,
+            "alignItems": null,
+            "padding": "",
+            "margin": ""
+          },
+          "sizing": {
+            "width": "",
+            "minWidth": "",
+            "maxWidth": "",
+            "height": "",
+            "minHeight": "",
+            "maxHeight": ""
+          },
+          "shadows": {
+            "isEnabled": false,
+            "color": null,
+            "offsetX": null,
+            "offsetY": null,
+            "blur": null,
+            "spread": null,
+            "inset": false
+          },
+          "positionTransform": {
+            "positionType": "",
+            "top": "",
+            "right": "",
+            "bottom": "",
+            "left": "",
+            "zIndex": "",
+            "translateX": "",
+            "translateY": ""
+          },
+          "background": {
+            "color": {
+              "color": "transparent"
+            },
+            "effectType": "",
+            "effectStrength": null
+          },
+          "border": {
+            "width": "",
+            "style": "",
+            "color": {
+              "color": ""
+            },
+            "radius": ""
+          },
+          "customCss": null
+        }
+      },
+      "primaryText": {
+        "text": {
+          "_node": {
+            "id": "championTabs.redTeam.player.name.text",
+            "label": "Player Name Text",
+            "type": "text",
+            "order": 0,
+            "visible": true,
+            "isList": false,
+            "translateX": "",
+            "translateY": ""
+          },
+          "fontFamily": "var(--lb-global-font)",
+          "fontWeight": "700",
+          "fontSize": "var(--lb-font-size-xs)",
+          "textColor": {
+            "color": "var(--lb-overlay-text-primary)"
+          },
+          "textAlignment": "right",
+          "textTransform": "",
+          "textDecoration": "",
+          "lineHeight": "1",
+          "letterSpacing": "",
+          "wordSpacing": "",
+          "textBorder": null,
+          "customCss": null
+        },
+        "_node": {
+          "id": "championTabs.redTeam.player.name",
+          "label": "Player Name",
+          "type": "container",
+          "order": 0,
+          "visible": true,
+          "isList": false,
+          "translateX": "",
+          "translateY": ""
+        },
+        "container": {
+          "animation": null,
+          "layout": {
+            "layoutStyle": "flex",
+            "flexDirection": null,
+            "gridColumns": null,
+            "gridRows": null,
+            "gap": null,
+            "horizontalGap": null,
+            "verticalGap": null,
+            "justifyContent": "flex-end",
+            "alignItems": "center",
+            "padding": "",
+            "margin": ""
+          },
+          "sizing": {
+            "width": "",
+            "minWidth": "",
+            "maxWidth": "12rem",
+            "height": "",
+            "minHeight": "",
+            "maxHeight": ""
+          },
+          "shadows": {
+            "isEnabled": false,
+            "color": null,
+            "offsetX": null,
+            "offsetY": null,
+            "blur": null,
+            "spread": null,
+            "inset": false
+          },
+          "positionTransform": {
+            "positionType": "relative",
+            "top": "",
+            "right": "",
+            "bottom": "",
+            "left": "",
+            "zIndex": "2",
+            "translateX": "",
+            "translateY": ""
+          },
+          "background": {
+            "color": {
+              "color": "transparent"
+            },
+            "effectType": "",
+            "effectStrength": null
+          },
+          "border": {
+            "width": "",
+            "style": "",
+            "color": {
+              "color": ""
+            },
+            "radius": ""
+          },
+          "customCss": null
+        }
+      },
+      "secondaryText": {
+        "text": {
+          "_node": {
+            "id": "championTabs.redTeam.player.level.text",
+            "label": "Level / Respawn Text",
+            "type": "text",
+            "order": 0,
+            "visible": true,
+            "isList": false,
+            "translateX": "",
+            "translateY": ""
+          },
+          "fontFamily": "var(--lb-global-font)",
+          "fontWeight": "700",
+          "fontSize": "var(--lb-font-size-sm)",
+          "textColor": {
+            "color": "var(--lb-overlay-text-primary)"
+          },
+          "textAlignment": "right",
+          "textTransform": "",
+          "textDecoration": "",
+          "lineHeight": "1",
+          "letterSpacing": "",
+          "wordSpacing": "",
+          "textBorder": null,
+          "customCss": null
+        },
+        "_node": {
+          "id": "championTabs.redTeam.player.level",
+          "label": "Level / Respawn",
+          "type": "container",
+          "order": 0,
+          "visible": true,
+          "isList": false,
+          "translateX": "",
+          "translateY": ""
+        },
+        "container": {
+          "animation": null,
+          "layout": {
+            "layoutStyle": "",
+            "flexDirection": null,
+            "gridColumns": null,
+            "gridRows": null,
+            "gap": null,
+            "horizontalGap": null,
+            "verticalGap": null,
+            "justifyContent": null,
+            "alignItems": null,
+            "padding": "",
+            "margin": ""
+          },
+          "sizing": {
+            "width": "",
+            "minWidth": "",
+            "maxWidth": "",
+            "height": "",
+            "minHeight": "",
+            "maxHeight": ""
+          },
+          "shadows": {
+            "isEnabled": false,
+            "color": null,
+            "offsetX": null,
+            "offsetY": null,
+            "blur": null,
+            "spread": null,
+            "inset": false
+          },
+          "positionTransform": {
+            "positionType": "absolute",
+            "top": null,
+            "right": "calc(33.333% + var(--lb-space-1))",
+            "bottom": "33.333%",
+            "left": null,
+            "zIndex": "2",
+            "translateX": "",
+            "translateY": ""
+          },
+          "background": {
+            "colors": [
+              {
+                "key": "respawn",
+                "label": "Respawn Timer",
+                "color": {
+                  "color": "var(--lb-overlay-negative)"
+                }
+              }
+            ],
+            "color": {
+              "color": "transparent"
+            },
+            "effectType": "",
+            "effectStrength": null
+          },
+          "border": {
+            "width": "",
+            "style": "",
+            "color": {
+              "color": ""
+            },
+            "radius": ""
+          },
+          "customCss": null
+        }
+      }
+    },
+    "abilities": {
+      "_node": {
+        "id": "championTabs.redTeam.abilities",
+        "label": "Abilities",
+        "type": "container",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "animation": null,
+        "layout": {
+          "layoutStyle": "grid",
+          "flexDirection": null,
+          "gridColumns": null,
+          "gridRows": "repeat(3, minmax(0, 1fr))",
+          "gap": "1px",
+          "horizontalGap": null,
+          "verticalGap": null,
+          "justifyContent": null,
+          "alignItems": null,
+          "padding": "1px",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "100%",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "100%",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "color": null,
+          "offsetX": null,
+          "offsetY": null,
+          "blur": null,
+          "spread": null,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "var(--lb-overlay-surface-strong)"
+          },
+          "effectType": "",
+          "effectStrength": null
+        },
+        "border": {
+          "width": "0px",
+          "style": "solid",
+          "color": {
+            "color": "transparent"
+          },
+          "radius": "var(--lb-radius-xs)"
+        },
+        "customCss": null
+      }
+    },
+    "statusBars": {
+      "_node": {
+        "id": "championTabs.redTeam.status",
+        "label": "Health, Resource and XP",
+        "type": "container",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "animation": null,
+        "layout": {
+          "layoutStyle": "flex",
+          "flexDirection": "column",
+          "gridColumns": null,
+          "gridRows": null,
+          "gap": "1px",
+          "horizontalGap": null,
+          "verticalGap": null,
+          "justifyContent": null,
+          "alignItems": null,
+          "padding": "",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "100%",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "100%",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "color": null,
+          "offsetX": null,
+          "offsetY": null,
+          "blur": null,
+          "spread": null,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "transparent"
+          },
+          "effectType": "",
+          "effectStrength": null
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": {
+            "color": ""
+          },
+          "radius": ""
+        },
+        "customCss": null
+      },
+      "experience": {
+        "_node": {
+          "id": "championTabs.redTeam.status.experience",
+          "label": "XP Bar",
+          "type": "container",
+          "order": 0,
+          "visible": true,
+          "isList": false,
+          "translateX": "",
+          "translateY": ""
+        },
+        "container": {
+          "animation": null,
+          "layout": {
+            "layoutStyle": "",
+            "flexDirection": null,
+            "gridColumns": null,
+            "gridRows": null,
+            "gap": null,
+            "horizontalGap": null,
+            "verticalGap": null,
+            "justifyContent": null,
+            "alignItems": null,
+            "padding": "",
+            "margin": ""
+          },
+          "sizing": {
+            "width": "",
+            "minWidth": "",
+            "maxWidth": "",
+            "height": "",
+            "minHeight": "",
+            "maxHeight": ""
+          },
+          "shadows": {
+            "isEnabled": false,
+            "color": null,
+            "offsetX": null,
+            "offsetY": null,
+            "blur": null,
+            "spread": null,
+            "inset": false
+          },
+          "positionTransform": {
+            "positionType": "",
+            "top": "",
+            "right": "",
+            "bottom": "",
+            "left": "",
+            "zIndex": "",
+            "translateX": "",
+            "translateY": ""
+          },
+          "background": {
+            "color": {
+              "color": "var(--lb-overlay-brand-primary)"
+            },
+            "effectType": "",
+            "effectStrength": null
+          },
+          "border": {
+            "width": "",
+            "style": "",
+            "color": {
+              "color": ""
+            },
+            "radius": ""
+          },
+          "customCss": null
+        }
+      },
+      "health": {
+        "_node": {
+          "id": "championTabs.redTeam.status.health",
+          "label": "Health Bar",
+          "type": "container",
+          "order": 0,
+          "visible": true,
+          "isList": false,
+          "translateX": "",
+          "translateY": ""
+        },
+        "container": {
+          "animation": null,
+          "layout": {
+            "layoutStyle": "",
+            "flexDirection": null,
+            "gridColumns": null,
+            "gridRows": null,
+            "gap": null,
+            "horizontalGap": null,
+            "verticalGap": null,
+            "justifyContent": null,
+            "alignItems": null,
+            "padding": "",
+            "margin": ""
+          },
+          "sizing": {
+            "width": "",
+            "minWidth": "",
+            "maxWidth": "",
+            "height": "",
+            "minHeight": "",
+            "maxHeight": ""
+          },
+          "shadows": {
+            "isEnabled": false,
+            "color": null,
+            "offsetX": null,
+            "offsetY": null,
+            "blur": null,
+            "spread": null,
+            "inset": false
+          },
+          "positionTransform": {
+            "positionType": "",
+            "top": "",
+            "right": "",
+            "bottom": "",
+            "left": "",
+            "zIndex": "",
+            "translateX": "",
+            "translateY": ""
+          },
+          "background": {
+            "color": {
+              "color": "var(--lb-overlay-positive)"
+            },
+            "effectType": "",
+            "effectStrength": null
+          },
+          "border": {
+            "width": "",
+            "style": "",
+            "color": {
+              "color": ""
+            },
+            "radius": ""
+          },
+          "customCss": null
+        }
+      },
+      "resource": {
+        "_node": {
+          "id": "championTabs.redTeam.status.resource",
+          "label": "Resource Bar",
+          "type": "container",
+          "order": 0,
+          "visible": true,
+          "isList": false,
+          "translateX": "",
+          "translateY": ""
+        },
+        "container": {
+          "animation": null,
+          "layout": {
+            "layoutStyle": "",
+            "flexDirection": null,
+            "gridColumns": null,
+            "gridRows": null,
+            "gap": null,
+            "horizontalGap": null,
+            "verticalGap": null,
+            "justifyContent": null,
+            "alignItems": null,
+            "padding": "",
+            "margin": ""
+          },
+          "sizing": {
+            "width": "",
+            "minWidth": "",
+            "maxWidth": "",
+            "height": "",
+            "minHeight": "",
+            "maxHeight": ""
+          },
+          "shadows": {
+            "isEnabled": false,
+            "color": null,
+            "offsetX": null,
+            "offsetY": null,
+            "blur": null,
+            "spread": null,
+            "inset": false
+          },
+          "positionTransform": {
+            "positionType": "",
+            "top": "",
+            "right": "",
+            "bottom": "",
+            "left": "",
+            "zIndex": "",
+            "translateX": "",
+            "translateY": ""
+          },
+          "background": {
+            "colors": [
+              {
+                "key": "energy",
+                "label": "Energy",
+                "color": {
+                  "color": "#F0D78C"
+                }
+              },
+              {
+                "key": "rage",
+                "label": "Fury",
+                "color": {
+                  "color": "var(--lb-side-red)"
+                }
+              },
+              {
+                "key": "heat",
+                "label": "Heat",
+                "color": {
+                  "color": "var(--lb-side-red)"
+                }
+              },
+              {
+                "key": "battlefury",
+                "label": "Battle Fury",
+                "color": {
+                  "color": "var(--lb-side-red)"
+                }
+              },
+              {
+                "key": "dragonfury",
+                "label": "Dragon Fury",
+                "color": {
+                  "color": "var(--lb-side-red)"
+                }
+              },
+              {
+                "key": "gnarfury",
+                "label": "Gnar Fury",
+                "color": {
+                  "color": "var(--lb-side-red)"
+                }
+              },
+              {
+                "key": "ferocity",
+                "label": "Ferocity",
+                "color": {
+                  "color": "var(--lb-side-red)"
+                }
+              },
+              {
+                "key": "bloodwell",
+                "label": "Blood Well",
+                "color": {
+                  "color": "var(--lb-side-red)"
+                }
+              },
+              {
+                "key": "shield",
+                "label": "Shield",
+                "color": {
+                  "color": "#8FA3C4"
+                }
+              },
+              {
+                "key": "wind",
+                "label": "Wind",
+                "color": {
+                  "color": "#8FA3C4"
+                }
+              },
+              {
+                "key": "ammo",
+                "label": "Ammo",
+                "color": {
+                  "color": "var(--lb-side-blue)"
+                }
+              },
+              {
+                "key": "moonlight",
+                "label": "Moonlight",
+                "color": {
+                  "color": "var(--lb-side-blue)"
+                }
+              },
+              {
+                "key": "other",
+                "label": "Other",
+                "color": {
+                  "color": "var(--lb-side-blue)"
+                }
+              }
+            ],
+            "color": {
+              "color": "var(--lb-side-blue)"
+            },
+            "effectType": "",
+            "effectStrength": null
+          },
+          "border": {
+            "width": "",
+            "style": "",
+            "color": {
+              "color": ""
+            },
+            "radius": ""
+          },
+          "customCss": null
+        }
+      }
+    },
+    "stacks": {
+      "text": {
+        "_node": {
+          "id": "championTabs.redTeam.stacks.text",
+          "label": "Champion Stacks Text",
+          "type": "text",
+          "order": 0,
+          "visible": true,
+          "isList": false,
+          "translateX": "",
+          "translateY": ""
+        },
+        "fontFamily": "var(--lb-global-font)",
+        "fontWeight": "700",
+        "fontSize": "var(--lb-font-size-xs)",
+        "textColor": {
+          "color": "var(--lb-overlay-text-primary)"
+        },
+        "textAlignment": "right",
+        "textTransform": "",
+        "textDecoration": "",
+        "lineHeight": "1",
+        "letterSpacing": "",
+        "wordSpacing": "",
+        "textBorder": null,
+        "customCss": null
+      },
+      "_node": {
+        "id": "championTabs.redTeam.stacks",
+        "label": "Champion Stacks",
+        "type": "container",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "animation": null,
+        "layout": {
+          "layoutStyle": "",
+          "flexDirection": null,
+          "gridColumns": null,
+          "gridRows": null,
+          "gap": null,
+          "horizontalGap": null,
+          "verticalGap": null,
+          "justifyContent": null,
+          "alignItems": null,
+          "padding": "",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "color": null,
+          "offsetX": null,
+          "offsetY": null,
+          "blur": null,
+          "spread": null,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "absolute",
+          "top": "0px",
+          "right": "calc(33.333% + var(--lb-space-1))",
+          "bottom": null,
+          "left": null,
+          "zIndex": "2",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "transparent"
+          },
+          "effectType": "",
+          "effectStrength": null
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": {
+            "color": ""
+          },
+          "radius": ""
+        },
+        "customCss": null
+      }
+    },
+    "levelUp": {
+      "_node": {
+        "id": "championTabs.redTeam.levelUp",
+        "label": "Level-up Notification",
+        "type": "container",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "animation": null,
+        "layout": {
+          "layoutStyle": "",
+          "flexDirection": null,
+          "gridColumns": null,
+          "gridRows": null,
+          "gap": null,
+          "horizontalGap": null,
+          "verticalGap": null,
+          "justifyContent": null,
+          "alignItems": null,
+          "padding": "",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "color": null,
+          "offsetX": null,
+          "offsetY": null,
+          "blur": null,
+          "spread": null,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "var(--lb-side-red)"
+          },
+          "effectType": "",
+          "effectStrength": null
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": {
+            "color": ""
+          },
+          "radius": ""
+        },
+        "customCss": null
+      },
+      "showOnlyMajorLevelUps": true,
+      "animationDuration": 2200,
+      "text": {
+        "_node": {
+          "id": "championTabs.redTeam.levelUp.text",
+          "label": "Level-up Text",
+          "type": "text",
+          "order": 0,
+          "visible": true,
+          "isList": false,
+          "translateX": "",
+          "translateY": ""
+        },
+        "fontFamily": "var(--lb-global-font)",
+        "fontWeight": "700",
+        "fontSize": "var(--lb-font-size-xl)",
+        "textColor": {
+          "color": "var(--lb-overlay-text-primary)"
+        },
+        "textAlignment": "center",
+        "textTransform": "",
+        "textDecoration": "",
+        "lineHeight": "1",
+        "letterSpacing": "",
+        "wordSpacing": "",
+        "textBorder": null,
+        "customCss": null
+      }
+    },
+    "edge": "right:0"
+  },
+  "customCss": null,
+  "fileVersion": "1.3"
+}

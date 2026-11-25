@@ -1,0 +1,2667 @@
+{
+  "_node": {
+    "id": "bottomRow",
+    "label": "Bottom Row",
+    "type": "container",
+    "order": 0,
+    "visible": true,
+    "isList": false,
+    "translateX": "",
+    "translateY": ""
+  },
+  "container": {
+    "layout": {
+      "layoutStyle": "grid",
+      "gridRows": "5vh 1vh 25vh",
+      "padding": "",
+      "margin": ""
+    },
+    "sizing": {
+      "width": "100%",
+      "minWidth": "",
+      "maxWidth": "",
+      "height": "31vh",
+      "minHeight": "",
+      "maxHeight": ""
+    },
+    "shadows": {
+      "isEnabled": false,
+      "inset": false
+    },
+    "positionTransform": {
+      "positionType": "absolute",
+      "top": "",
+      "right": "",
+      "bottom": "0px",
+      "left": "0px",
+      "zIndex": "",
+      "translateX": "",
+      "translateY": ""
+    },
+    "background": {
+      "color": {
+        "color": "transparent"
+      },
+      "effectType": ""
+    },
+    "border": {
+      "width": "",
+      "style": "",
+      "color": {
+        "color": ""
+      },
+      "radius": ""
+    }
+  },
+  "banRow": {
+    "_node": {
+      "id": "bottomRow.bans",
+      "label": "Ban Row",
+      "type": "container",
+      "order": 0,
+      "visible": true,
+      "isList": false,
+      "translateX": "",
+      "translateY": ""
+    },
+    "container": {
+      "layout": {
+        "layoutStyle": "",
+        "padding": "",
+        "margin": ""
+      },
+      "sizing": {
+        "width": "100%",
+        "minWidth": "",
+        "maxWidth": "",
+        "height": "5vh",
+        "minHeight": "",
+        "maxHeight": ""
+      },
+      "shadows": {
+        "isEnabled": false,
+        "inset": false
+      },
+      "positionTransform": {
+        "positionType": "relative",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "zIndex": "",
+        "translateX": "",
+        "translateY": ""
+      },
+      "background": {
+        "color": {
+          "color": "transparent"
+        },
+        "effectType": ""
+      },
+      "border": {
+        "width": "",
+        "style": "",
+        "color": {
+          "color": ""
+        },
+        "radius": ""
+      }
+    }
+  },
+  "timerTrack": {
+    "_node": {
+      "id": "bottomRow.timer",
+      "label": "Phase Timer",
+      "type": "container",
+      "order": 0,
+      "visible": true,
+      "isList": false,
+      "translateX": "",
+      "translateY": ""
+    },
+    "container": {
+      "layout": {
+        "layoutStyle": "flex",
+        "justifyContent": "center",
+        "padding": "",
+        "margin": ""
+      },
+      "sizing": {
+        "width": "100%",
+        "minWidth": "",
+        "maxWidth": "",
+        "height": "1vh",
+        "minHeight": "",
+        "maxHeight": ""
+      },
+      "shadows": {
+        "isEnabled": false,
+        "inset": false
+      },
+      "positionTransform": {
+        "positionType": "",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "zIndex": "",
+        "translateX": "",
+        "translateY": ""
+      },
+      "background": {
+        "color": {
+          "color": "#0B1220"
+        },
+        "effectType": ""
+      },
+      "border": {
+        "width": "1.5px",
+        "style": "solid",
+        "color": {
+          "color": "#C9A24A"
+        },
+        "radius": ""
+      }
+    }
+  },
+  "timerFill": {
+    "_node": {
+      "id": "bottomRow.timer.fill",
+      "label": "Timer Progress",
+      "type": "container",
+      "order": 0,
+      "visible": true,
+      "isList": false,
+      "translateX": "",
+      "translateY": ""
+    },
+    "container": {
+      "layout": {
+        "layoutStyle": "",
+        "padding": "",
+        "margin": ""
+      },
+      "sizing": {
+        "width": "100%",
+        "minWidth": "",
+        "maxWidth": "",
+        "height": "100%",
+        "minHeight": "",
+        "maxHeight": ""
+      },
+      "shadows": {
+        "isEnabled": false,
+        "inset": false
+      },
+      "positionTransform": {
+        "positionType": "",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "zIndex": "",
+        "translateX": "",
+        "translateY": ""
+      },
+      "background": {
+        "color": {
+          "color": "var(--lb-side-neutral)"
+        },
+        "effectType": ""
+      },
+      "border": {
+        "width": "",
+        "style": "",
+        "color": {
+          "color": ""
+        },
+        "radius": ""
+      }
+    }
+  },
+  "draft": {
+    "_node": {
+      "id": "bottomRow.draft",
+      "label": "Draft Row",
+      "type": "container",
+      "order": 0,
+      "visible": true,
+      "isList": false,
+      "translateX": "",
+      "translateY": ""
+    },
+    "container": {
+      "layout": {
+        "layoutStyle": "grid",
+        "gridColumns": "1fr auto 1fr",
+        "padding": "",
+        "margin": ""
+      },
+      "sizing": {
+        "width": "100%",
+        "minWidth": "",
+        "maxWidth": "",
+        "height": "25vh",
+        "minHeight": "",
+        "maxHeight": ""
+      },
+      "shadows": {
+        "isEnabled": false,
+        "inset": false
+      },
+      "positionTransform": {
+        "positionType": "",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "zIndex": "",
+        "translateX": "",
+        "translateY": ""
+      },
+      "background": {
+        "color": {
+          "color": "transparent"
+        },
+        "effectType": ""
+      },
+      "border": {
+        "width": "",
+        "style": "",
+        "color": {
+          "color": ""
+        },
+        "radius": ""
+      }
+    }
+  },
+  "blueTeam": {
+    "_node": {
+      "id": "bottomRow.blue",
+      "label": "Blue Team",
+      "type": "container",
+      "order": 0,
+      "visible": true,
+      "isList": false,
+      "translateX": "",
+      "translateY": ""
+    },
+    "accent": {
+      "color": "var(--lb-side-blue)"
+    },
+    "bans": {
+      "_node": {
+        "id": "bottomRow.blue.bans",
+        "label": "Ban Slots",
+        "type": "container",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "layout": {
+          "layoutStyle": "flex",
+          "flexDirection": "row",
+          "padding": "",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "50%",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "100%",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "absolute",
+          "top": "",
+          "bottom": "",
+          "left": "0px",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "transparent"
+          },
+          "effectType": ""
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": {
+            "color": ""
+          },
+          "radius": ""
+        }
+      }
+    },
+    "ban": {
+      "image": {
+        "_node": {
+          "id": "bottomRow.blue.ban.image",
+          "label": "Ban Image",
+          "type": "image",
+          "order": 0,
+          "visible": true,
+          "isList": false,
+          "translateX": "",
+          "translateY": ""
+        },
+        "images": [],
+        "objectFit": "contain",
+        "objectPosition": "center",
+        "championAsset": "",
+        "sizing": {
+          "width": "100%",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "100%",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        }
+      },
+      "_node": {
+        "id": "bottomRow.blue.ban",
+        "label": "Ban Portrait",
+        "type": "image",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "layout": {
+          "layoutStyle": "",
+          "padding": "",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "5vh",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "5vh",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "relative",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "#0B1220"
+          },
+          "effectType": ""
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": {
+            "color": ""
+          },
+          "radius": ""
+        }
+      }
+    },
+    "banMark": {
+      "_node": {
+        "id": "bottomRow.blue.ban.mark",
+        "label": "Ban Mark",
+        "type": "container",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "layout": {
+          "layoutStyle": "",
+          "padding": "",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "70%",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "3px",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "var(--lb-side-blue)"
+          },
+          "effectType": ""
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": {
+            "color": ""
+          },
+          "radius": ""
+        }
+      }
+    },
+    "players": {
+      "_node": {
+        "id": "bottomRow.blue.players",
+        "label": "Player Slots",
+        "type": "container",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "layout": {
+          "layoutStyle": "flex",
+          "flexDirection": "row",
+          "padding": "",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "100%",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "100%",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "transparent"
+          },
+          "effectType": ""
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": {
+            "color": ""
+          },
+          "radius": ""
+        }
+      }
+    },
+    "player": {
+      "_node": {
+        "id": "bottomRow.blue.player",
+        "label": "Player Card",
+        "type": "container",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "layout": {
+          "layoutStyle": "flex",
+          "flexDirection": "column",
+          "justifyContent": "flex-end",
+          "padding": "",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "0px",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "100%",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "relative",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "#0B1220"
+          },
+          "effectType": ""
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": {
+            "color": ""
+          },
+          "radius": ""
+        }
+      }
+    },
+    "portrait": {
+      "image": {
+        "_node": {
+          "id": "bottomRow.blue.player.portrait.image",
+          "label": "Champion Image",
+          "type": "image",
+          "order": 0,
+          "visible": true,
+          "isList": false,
+          "translateX": "",
+          "translateY": ""
+        },
+        "images": [],
+        "objectFit": "cover",
+        "objectPosition": "center",
+        "championAsset": "",
+        "sizing": {
+          "width": "100%",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "100%",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        }
+      },
+      "_node": {
+        "id": "bottomRow.blue.player.portrait",
+        "label": "Champion Portrait",
+        "type": "image",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "layout": {
+          "layoutStyle": "",
+          "padding": "",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "transparent"
+          },
+          "effectType": ""
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": {
+            "color": ""
+          },
+          "radius": ""
+        }
+      }
+    },
+    "playerName": {
+      "text": {
+        "_node": {
+          "id": "bottomRow.blue.player.name.text",
+          "label": "Player Name Text",
+          "type": "text",
+          "order": 0,
+          "visible": true,
+          "isList": false,
+          "translateX": "",
+          "translateY": ""
+        },
+        "fontFamily": "Barlow Condensed",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "textColor": {
+          "color": "#EDE6D6"
+        },
+        "textAlignment": "center",
+        "textTransform": "",
+        "textDecoration": "",
+        "lineHeight": "1",
+        "letterSpacing": "",
+        "wordSpacing": ""
+      },
+      "_node": {
+        "id": "bottomRow.blue.player.name",
+        "label": "Player Name",
+        "type": "container",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "layout": {
+          "layoutStyle": "",
+          "padding": "",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "transparent"
+          },
+          "effectType": ""
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": {
+            "color": ""
+          },
+          "radius": ""
+        }
+      }
+    },
+    "statistics": {
+      "_node": {
+        "id": "bottomRow.blue.player.stats",
+        "label": "Champion Statistics",
+        "type": "container",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "layout": {
+          "layoutStyle": "flex",
+          "flexDirection": "column",
+          "justifyContent": "flex-start",
+          "alignItems": "flex-start",
+          "padding": "",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "#070C17"
+          },
+          "effectType": ""
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": {
+            "color": ""
+          },
+          "radius": ""
+        }
+      }
+    },
+    "statisticsTitle": {
+      "text": {
+        "_node": {
+          "id": "bottomRow.blue.player.stats.title.text",
+          "label": "Statistics Title Text",
+          "type": "text",
+          "order": 0,
+          "visible": true,
+          "isList": false,
+          "translateX": "",
+          "translateY": ""
+        },
+        "fontFamily": "Barlow Condensed",
+        "fontWeight": "400",
+        "fontSize": "1rem",
+        "textColor": {
+          "color": "#EDE6D6"
+        },
+        "textAlignment": "left",
+        "textTransform": "",
+        "textDecoration": "",
+        "lineHeight": "1",
+        "letterSpacing": "",
+        "wordSpacing": ""
+      },
+      "_node": {
+        "id": "bottomRow.blue.player.stats.title",
+        "label": "Statistics Title",
+        "type": "container",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "layout": {
+          "layoutStyle": "",
+          "padding": "",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "transparent"
+          },
+          "effectType": ""
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": {
+            "color": ""
+          },
+          "radius": ""
+        }
+      }
+    },
+    "statisticsValue": {
+      "text": {
+        "_node": {
+          "id": "bottomRow.blue.player.stats.value.text",
+          "label": "Statistics Value Text",
+          "type": "text",
+          "order": 0,
+          "visible": true,
+          "isList": false,
+          "translateX": "",
+          "translateY": ""
+        },
+        "fontFamily": "Barlow Condensed",
+        "fontWeight": "400",
+        "fontSize": "1rem",
+        "textColor": {
+          "color": "#EDE6D6"
+        },
+        "textAlignment": "left",
+        "textTransform": "",
+        "textDecoration": "",
+        "lineHeight": "1",
+        "letterSpacing": "",
+        "wordSpacing": ""
+      },
+      "_node": {
+        "id": "bottomRow.blue.player.stats.value",
+        "label": "Statistics Value",
+        "type": "container",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "layout": {
+          "layoutStyle": "",
+          "padding": "",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "transparent"
+          },
+          "effectType": ""
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": {
+            "color": ""
+          },
+          "radius": ""
+        }
+      }
+    },
+    "identity": {
+      "_node": {
+        "id": "bottomRow.blue.identity",
+        "label": "Team Identity",
+        "type": "container",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "layout": {
+          "layoutStyle": "flex",
+          "flexDirection": "column",
+          "justifyContent": "flex-start",
+          "alignItems": "center",
+          "padding": "4px 0 0",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "100%",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "#0B1220"
+          },
+          "effectType": ""
+        },
+        "border": {
+          "width": "1.5px",
+          "style": "solid",
+          "color": {
+            "color": "#C9A24A"
+          },
+          "radius": ""
+        }
+      }
+    },
+    "logo": {
+      "image": {
+        "_node": {
+          "id": "bottomRow.blue.identity.logo.image",
+          "label": "Logo Image",
+          "type": "image",
+          "order": 0,
+          "visible": true,
+          "isList": false,
+          "translateX": "",
+          "translateY": ""
+        },
+        "images": [],
+        "objectFit": "contain",
+        "objectPosition": "center",
+        "championAsset": "",
+        "sizing": {
+          "width": "7vw",
+          "minWidth": "",
+          "maxWidth": "7vw",
+          "height": "",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        }
+      },
+      "_node": {
+        "id": "bottomRow.blue.identity.logo",
+        "label": "Team Logo",
+        "type": "image",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "layout": {
+          "layoutStyle": "",
+          "padding": "",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "transparent"
+          },
+          "effectType": ""
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": {
+            "color": ""
+          },
+          "radius": ""
+        }
+      }
+    },
+    "teamName": {
+      "text": {
+        "_node": {
+          "id": "bottomRow.blue.identity.name.text",
+          "label": "Team Name Text",
+          "type": "text",
+          "order": 0,
+          "visible": true,
+          "isList": false,
+          "translateX": "",
+          "translateY": ""
+        },
+        "fontFamily": "Cinzel",
+        "fontWeight": "700",
+        "fontSize": "30px",
+        "textColor": {
+          "color": "#EDE6D6"
+        },
+        "textAlignment": "center",
+        "textTransform": "",
+        "textDecoration": "",
+        "lineHeight": "1.6",
+        "letterSpacing": "",
+        "wordSpacing": ""
+      },
+      "_node": {
+        "id": "bottomRow.blue.identity.name",
+        "label": "Team Name",
+        "type": "container",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "layout": {
+          "layoutStyle": "",
+          "padding": "0 0 10%",
+          "margin": "auto 0 0"
+        },
+        "sizing": {
+          "width": "",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "transparent"
+          },
+          "effectType": ""
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": {
+            "color": ""
+          },
+          "radius": ""
+        }
+      }
+    },
+    "score": {
+      "_node": {
+        "id": "bottomRow.blue.identity.score",
+        "label": "Match Score",
+        "type": "container",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "layout": {
+          "layoutStyle": "flex",
+          "flexDirection": "column",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "padding": "",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "transparent"
+          },
+          "effectType": ""
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": {
+            "color": ""
+          },
+          "radius": ""
+        }
+      }
+    },
+    "scorePip": {
+      "_node": {
+        "id": "bottomRow.blue.identity.score.pip",
+        "label": "Score Pip",
+        "type": "container",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "layout": {
+          "layoutStyle": "",
+          "padding": "",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "1.5vw",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "1.5vw",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "#C9A24A59"
+          },
+          "effectType": ""
+        },
+        "border": {
+          "width": "0px",
+          "style": "solid",
+          "color": {
+            "color": "transparent"
+          },
+          "radius": "999px"
+        }
+      }
+    },
+    "teamNameTemplate": "{{teamTag}}",
+    "playerNameTemplate": "{{playerName}}",
+    "useVideoBackground": false
+  },
+  "center": {
+    "_node": {
+      "id": "bottomRow.center",
+      "label": "Tournament Center",
+      "type": "container",
+      "order": 0,
+      "visible": true,
+      "isList": false,
+      "translateX": "",
+      "translateY": ""
+    },
+    "container": {
+      "_node": {
+        "id": "bottomRow.center.container",
+        "label": "Tournament Details",
+        "type": "container",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "layout": {
+          "layoutStyle": "flex",
+          "flexDirection": "column",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "padding": "",
+          "margin": "0 0 1rem"
+        },
+        "sizing": {
+          "width": "8vw",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "100%",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "#0B1220"
+          },
+          "effectType": ""
+        },
+        "border": {
+          "width": "1.5px",
+          "style": "solid",
+          "color": {
+            "color": "#C9A24A"
+          },
+          "radius": ""
+        }
+      }
+    },
+    "logo": {
+      "image": {
+        "_node": {
+          "id": "bottomRow.center.logo.image",
+          "label": "Logo Image",
+          "type": "image",
+          "order": 0,
+          "visible": true,
+          "isList": false,
+          "translateX": "",
+          "translateY": ""
+        },
+        "images": [],
+        "objectFit": "contain",
+        "objectPosition": "center",
+        "championAsset": "",
+        "sizing": {
+          "width": "100%",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        }
+      },
+      "_node": {
+        "id": "bottomRow.center.logo",
+        "label": "Tournament Logo",
+        "type": "image",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "layout": {
+          "layoutStyle": "",
+          "padding": "",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "6.5vw",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "transparent"
+          },
+          "effectType": ""
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": {
+            "color": ""
+          },
+          "radius": ""
+        }
+      }
+    },
+    "matchName": {
+      "text": {
+        "_node": {
+          "id": "bottomRow.center.match.text",
+          "label": "Match Name Text",
+          "type": "text",
+          "order": 0,
+          "visible": true,
+          "isList": false,
+          "translateX": "",
+          "translateY": ""
+        },
+        "fontFamily": "Cinzel",
+        "fontWeight": "700",
+        "fontSize": "12px",
+        "textColor": {
+          "color": "#EDE6D6"
+        },
+        "textAlignment": "center",
+        "textTransform": "",
+        "textDecoration": "",
+        "lineHeight": "1",
+        "letterSpacing": "",
+        "wordSpacing": ""
+      },
+      "_node": {
+        "id": "bottomRow.center.match",
+        "label": "Match Name",
+        "type": "container",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "layout": {
+          "layoutStyle": "",
+          "padding": "",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "transparent"
+          },
+          "effectType": ""
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": {
+            "color": ""
+          },
+          "radius": ""
+        }
+      }
+    },
+    "patch": {
+      "text": {
+        "_node": {
+          "id": "bottomRow.center.patch.text",
+          "label": "Patch Text",
+          "type": "text",
+          "order": 0,
+          "visible": true,
+          "isList": false,
+          "translateX": "",
+          "translateY": ""
+        },
+        "fontFamily": "Barlow Condensed",
+        "fontWeight": "700",
+        "fontSize": "12px",
+        "textColor": {
+          "color": "#EDE6D6"
+        },
+        "textAlignment": "center",
+        "textTransform": "",
+        "textDecoration": "",
+        "lineHeight": "1",
+        "letterSpacing": "",
+        "wordSpacing": ""
+      },
+      "_node": {
+        "id": "bottomRow.center.patch",
+        "label": "Patch",
+        "type": "container",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "layout": {
+          "layoutStyle": "",
+          "padding": "",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "transparent"
+          },
+          "effectType": ""
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": {
+            "color": ""
+          },
+          "radius": ""
+        }
+      }
+    }
+  },
+  "redTeam": {
+    "_node": {
+      "id": "bottomRow.red",
+      "label": "Red Team",
+      "type": "container",
+      "order": 0,
+      "visible": true,
+      "isList": false,
+      "translateX": "",
+      "translateY": ""
+    },
+    "accent": {
+      "color": "var(--lb-side-red)"
+    },
+    "bans": {
+      "_node": {
+        "id": "bottomRow.red.bans",
+        "label": "Ban Slots",
+        "type": "container",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "layout": {
+          "layoutStyle": "flex",
+          "flexDirection": "row-reverse",
+          "padding": "",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "50%",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "100%",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "absolute",
+          "top": "",
+          "right": "0px",
+          "bottom": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "transparent"
+          },
+          "effectType": ""
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": {
+            "color": ""
+          },
+          "radius": ""
+        }
+      }
+    },
+    "ban": {
+      "image": {
+        "_node": {
+          "id": "bottomRow.red.ban.image",
+          "label": "Ban Image",
+          "type": "image",
+          "order": 0,
+          "visible": true,
+          "isList": false,
+          "translateX": "",
+          "translateY": ""
+        },
+        "images": [],
+        "objectFit": "contain",
+        "objectPosition": "center",
+        "championAsset": "",
+        "sizing": {
+          "width": "100%",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "100%",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        }
+      },
+      "_node": {
+        "id": "bottomRow.red.ban",
+        "label": "Ban Portrait",
+        "type": "image",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "layout": {
+          "layoutStyle": "",
+          "padding": "",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "5vh",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "5vh",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "relative",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "#0B1220"
+          },
+          "effectType": ""
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": {
+            "color": ""
+          },
+          "radius": ""
+        }
+      }
+    },
+    "banMark": {
+      "_node": {
+        "id": "bottomRow.red.ban.mark",
+        "label": "Ban Mark",
+        "type": "container",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "layout": {
+          "layoutStyle": "",
+          "padding": "",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "70%",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "3px",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "var(--lb-side-red)"
+          },
+          "effectType": ""
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": {
+            "color": ""
+          },
+          "radius": ""
+        }
+      }
+    },
+    "players": {
+      "_node": {
+        "id": "bottomRow.red.players",
+        "label": "Player Slots",
+        "type": "container",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "layout": {
+          "layoutStyle": "flex",
+          "flexDirection": "row",
+          "padding": "",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "100%",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "100%",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "transparent"
+          },
+          "effectType": ""
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": {
+            "color": ""
+          },
+          "radius": ""
+        }
+      }
+    },
+    "player": {
+      "_node": {
+        "id": "bottomRow.red.player",
+        "label": "Player Card",
+        "type": "container",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "layout": {
+          "layoutStyle": "flex",
+          "flexDirection": "column",
+          "justifyContent": "flex-end",
+          "padding": "",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "0px",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "100%",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "relative",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "#0B1220"
+          },
+          "effectType": ""
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": {
+            "color": ""
+          },
+          "radius": ""
+        }
+      }
+    },
+    "portrait": {
+      "image": {
+        "_node": {
+          "id": "bottomRow.red.player.portrait.image",
+          "label": "Champion Image",
+          "type": "image",
+          "order": 0,
+          "visible": true,
+          "isList": false,
+          "translateX": "",
+          "translateY": ""
+        },
+        "images": [],
+        "objectFit": "cover",
+        "objectPosition": "center",
+        "championAsset": "",
+        "sizing": {
+          "width": "100%",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "100%",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        }
+      },
+      "_node": {
+        "id": "bottomRow.red.player.portrait",
+        "label": "Champion Portrait",
+        "type": "image",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "layout": {
+          "layoutStyle": "",
+          "padding": "",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "transparent"
+          },
+          "effectType": ""
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": {
+            "color": ""
+          },
+          "radius": ""
+        }
+      }
+    },
+    "playerName": {
+      "text": {
+        "_node": {
+          "id": "bottomRow.red.player.name.text",
+          "label": "Player Name Text",
+          "type": "text",
+          "order": 0,
+          "visible": true,
+          "isList": false,
+          "translateX": "",
+          "translateY": ""
+        },
+        "fontFamily": "Barlow Condensed",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "textColor": {
+          "color": "#EDE6D6"
+        },
+        "textAlignment": "center",
+        "textTransform": "",
+        "textDecoration": "",
+        "lineHeight": "1",
+        "letterSpacing": "",
+        "wordSpacing": ""
+      },
+      "_node": {
+        "id": "bottomRow.red.player.name",
+        "label": "Player Name",
+        "type": "container",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "layout": {
+          "layoutStyle": "",
+          "padding": "",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "transparent"
+          },
+          "effectType": ""
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": {
+            "color": ""
+          },
+          "radius": ""
+        }
+      }
+    },
+    "statistics": {
+      "_node": {
+        "id": "bottomRow.red.player.stats",
+        "label": "Champion Statistics",
+        "type": "container",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "layout": {
+          "layoutStyle": "flex",
+          "flexDirection": "column",
+          "justifyContent": "flex-start",
+          "alignItems": "flex-start",
+          "padding": "",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "#070C17"
+          },
+          "effectType": ""
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": {
+            "color": ""
+          },
+          "radius": ""
+        }
+      }
+    },
+    "statisticsTitle": {
+      "text": {
+        "_node": {
+          "id": "bottomRow.red.player.stats.title.text",
+          "label": "Statistics Title Text",
+          "type": "text",
+          "order": 0,
+          "visible": true,
+          "isList": false,
+          "translateX": "",
+          "translateY": ""
+        },
+        "fontFamily": "Barlow Condensed",
+        "fontWeight": "400",
+        "fontSize": "1rem",
+        "textColor": {
+          "color": "#EDE6D6"
+        },
+        "textAlignment": "left",
+        "textTransform": "",
+        "textDecoration": "",
+        "lineHeight": "1",
+        "letterSpacing": "",
+        "wordSpacing": ""
+      },
+      "_node": {
+        "id": "bottomRow.red.player.stats.title",
+        "label": "Statistics Title",
+        "type": "container",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "layout": {
+          "layoutStyle": "",
+          "padding": "",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "transparent"
+          },
+          "effectType": ""
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": {
+            "color": ""
+          },
+          "radius": ""
+        }
+      }
+    },
+    "statisticsValue": {
+      "text": {
+        "_node": {
+          "id": "bottomRow.red.player.stats.value.text",
+          "label": "Statistics Value Text",
+          "type": "text",
+          "order": 0,
+          "visible": true,
+          "isList": false,
+          "translateX": "",
+          "translateY": ""
+        },
+        "fontFamily": "Barlow Condensed",
+        "fontWeight": "400",
+        "fontSize": "1rem",
+        "textColor": {
+          "color": "#EDE6D6"
+        },
+        "textAlignment": "left",
+        "textTransform": "",
+        "textDecoration": "",
+        "lineHeight": "1",
+        "letterSpacing": "",
+        "wordSpacing": ""
+      },
+      "_node": {
+        "id": "bottomRow.red.player.stats.value",
+        "label": "Statistics Value",
+        "type": "container",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "layout": {
+          "layoutStyle": "",
+          "padding": "",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "transparent"
+          },
+          "effectType": ""
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": {
+            "color": ""
+          },
+          "radius": ""
+        }
+      }
+    },
+    "identity": {
+      "_node": {
+        "id": "bottomRow.red.identity",
+        "label": "Team Identity",
+        "type": "container",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "layout": {
+          "layoutStyle": "flex",
+          "flexDirection": "column",
+          "justifyContent": "flex-start",
+          "alignItems": "center",
+          "padding": "4px 0 0",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "100%",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "#0B1220"
+          },
+          "effectType": ""
+        },
+        "border": {
+          "width": "1.5px",
+          "style": "solid",
+          "color": {
+            "color": "#C9A24A"
+          },
+          "radius": ""
+        }
+      }
+    },
+    "logo": {
+      "image": {
+        "_node": {
+          "id": "bottomRow.red.identity.logo.image",
+          "label": "Logo Image",
+          "type": "image",
+          "order": 0,
+          "visible": true,
+          "isList": false,
+          "translateX": "",
+          "translateY": ""
+        },
+        "images": [],
+        "objectFit": "contain",
+        "objectPosition": "center",
+        "championAsset": "",
+        "sizing": {
+          "width": "7vw",
+          "minWidth": "",
+          "maxWidth": "7vw",
+          "height": "",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        }
+      },
+      "_node": {
+        "id": "bottomRow.red.identity.logo",
+        "label": "Team Logo",
+        "type": "image",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "layout": {
+          "layoutStyle": "",
+          "padding": "",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "transparent"
+          },
+          "effectType": ""
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": {
+            "color": ""
+          },
+          "radius": ""
+        }
+      }
+    },
+    "teamName": {
+      "text": {
+        "_node": {
+          "id": "bottomRow.red.identity.name.text",
+          "label": "Team Name Text",
+          "type": "text",
+          "order": 0,
+          "visible": true,
+          "isList": false,
+          "translateX": "",
+          "translateY": ""
+        },
+        "fontFamily": "Cinzel",
+        "fontWeight": "700",
+        "fontSize": "30px",
+        "textColor": {
+          "color": "#EDE6D6"
+        },
+        "textAlignment": "center",
+        "textTransform": "",
+        "textDecoration": "",
+        "lineHeight": "1.6",
+        "letterSpacing": "",
+        "wordSpacing": ""
+      },
+      "_node": {
+        "id": "bottomRow.red.identity.name",
+        "label": "Team Name",
+        "type": "container",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "layout": {
+          "layoutStyle": "",
+          "padding": "0 0 10%",
+          "margin": "auto 0 0"
+        },
+        "sizing": {
+          "width": "",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "transparent"
+          },
+          "effectType": ""
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": {
+            "color": ""
+          },
+          "radius": ""
+        }
+      }
+    },
+    "score": {
+      "_node": {
+        "id": "bottomRow.red.identity.score",
+        "label": "Match Score",
+        "type": "container",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "layout": {
+          "layoutStyle": "flex",
+          "flexDirection": "column",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "padding": "",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "transparent"
+          },
+          "effectType": ""
+        },
+        "border": {
+          "width": "",
+          "style": "",
+          "color": {
+            "color": ""
+          },
+          "radius": ""
+        }
+      }
+    },
+    "scorePip": {
+      "_node": {
+        "id": "bottomRow.red.identity.score.pip",
+        "label": "Score Pip",
+        "type": "container",
+        "order": 0,
+        "visible": true,
+        "isList": false,
+        "translateX": "",
+        "translateY": ""
+      },
+      "container": {
+        "layout": {
+          "layoutStyle": "",
+          "padding": "",
+          "margin": ""
+        },
+        "sizing": {
+          "width": "1.5vw",
+          "minWidth": "",
+          "maxWidth": "",
+          "height": "1.5vw",
+          "minHeight": "",
+          "maxHeight": ""
+        },
+        "shadows": {
+          "isEnabled": false,
+          "inset": false
+        },
+        "positionTransform": {
+          "positionType": "",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "zIndex": "",
+          "translateX": "",
+          "translateY": ""
+        },
+        "background": {
+          "color": {
+            "color": "#C9A24A59"
+          },
+          "effectType": ""
+        },
+        "border": {
+          "width": "0px",
+          "style": "solid",
+          "color": {
+            "color": "transparent"
+          },
+          "radius": "999px"
+        }
+      }
+    },
+    "teamNameTemplate": "{{teamTag}}",
+    "playerNameTemplate": "{{playerName}}",
+    "useVideoBackground": false
+  },
+  "activePickWidthMultiplier": 1.5,
+  "heroStats": 0,
+  "heroStatsValue": 0,
+  "heroStatsMinSampleGames": 5,
+  "heroStatDurationSeconds": 6,
+  "showTournament": true,
+  "customCss": ":root {\n  --lb-overlay-surface-base: #0B1220F0;\n  --lb-overlay-surface-glass: #0B1220DB;\n  --lb-overlay-surface-strong: #070C17F7;\n  --lb-overlay-surface-opaque: #070C17;\n  --lb-overlay-surface-raised: #16203AF0;\n  --lb-overlay-surface-muted: #1E2A44E6;\n  --lb-overlay-surface-scrim: #070C17B8;\n  --lb-overlay-border-subtle: #C9A24A66;\n  --lb-overlay-border-strong: #C9A24AB3;\n  --lb-overlay-border-width: 1.5px;\n  --lb-overlay-divider: #C9A24A33;\n  --lb-overlay-highlight: #F0D78C;\n  --lb-overlay-highlight-soft: #C9A24A;\n  --lb-overlay-warning: #F0D78C;\n  --lb-overlay-brand-primary: #C9A24A;\n  --lb-overlay-brand-secondary: #F0D78C;\n  --lb-overlay-info: #2F8CFF;\n  --lb-overlay-text-primary: #EDE6D6;\n  --lb-overlay-text-secondary: #CFC4AA;\n  --lb-overlay-text-muted: #8FA3C4;\n  --lb-overlay-team-neutral: #C9A24A;\n  --lb-overlay-team-blue: #2F8CFF;\n  --lb-overlay-team-blue-soft: #2F8CFF38;\n  --lb-overlay-team-red: #D7372B;\n  --lb-overlay-team-red-soft: #D7372B38;\n  --lb-font-display: \u0022Cinzel\u0022, Georgia, serif;\n  --lb-font-numeric: \u0022Barlow Condensed\u0022, \u0022Roboto Condensed\u0022, sans-serif;\n  --lb-font-body: \u0022Barlow Condensed\u0022, \u0022Roboto Condensed\u0022, sans-serif;\n}",
+  "fileVersion": "1.1"
+}

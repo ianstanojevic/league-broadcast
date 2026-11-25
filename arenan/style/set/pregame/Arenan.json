@@ -1,0 +1,133 @@
+{
+  "Entries": {
+    "BottomRow": {
+      "Variant": "Default",
+      "Category": "Base",
+      "IsActive": true,
+      "Uri": "/bottom-row"
+    },
+    "FearlessBan": {
+      "Variant": "Default",
+      "Category": "Graphs",
+      "IsActive": true
+    },
+    "BottomRowV2": {
+      "Variant": "Arenan",
+      "Category": "Base",
+      "IsActive": true
+    },
+    "FearlessBanV2": {
+      "Variant": "Default",
+      "Category": "Graphs",
+      "IsActive": true
+    }
+  },
+  "Global": {
+    "playerFullNameDisplayFormat": "{givenName} \"{alias}\" {familyName}",
+    "color": {
+      "blueSideColor": "#2F8CFFFF",
+      "redSideColor": "#D7372BFF",
+      "neutralColor": "#C9A24AFF"
+    },
+    "fontFamily": "Barlow Condensed",
+    "cameraFrames": {
+      "useSameStyleForSplit": true,
+      "pipFrame": {
+        "enabled": true,
+        "widthPixelsAt1080p": 8,
+        "angleDegrees": 180,
+        "stops": [
+          {
+            "offset": 0,
+            "color": {
+              "lightness": 0.730814,
+              "chroma": 0.115447,
+              "hueDegrees": 85.187,
+              "alpha": 1
+            }
+          },
+          {
+            "offset": 0.25,
+            "color": {
+              "lightness": 0.183113,
+              "chroma": 0.030892,
+              "hueDegrees": 263.383,
+              "alpha": 1
+            }
+          },
+          {
+            "offset": 0.75,
+            "color": {
+              "lightness": 0.183113,
+              "chroma": 0.030892,
+              "hueDegrees": 263.383,
+              "alpha": 1
+            }
+          },
+          {
+            "offset": 1,
+            "color": {
+              "lightness": 0.883324,
+              "chroma": 0.09815,
+              "hueDegrees": 91.702,
+              "alpha": 1
+            }
+          }
+        ],
+        "animation": {
+          "kind": 0,
+          "durationSeconds": 4,
+          "reverse": false
+        }
+      },
+      "splitDivider": {
+        "enabled": true,
+        "widthPixelsAt1080p": 8,
+        "angleDegrees": 180,
+        "stops": [
+          {
+            "offset": 0,
+            "color": {
+              "lightness": 0.730814,
+              "chroma": 0.115447,
+              "hueDegrees": 85.187,
+              "alpha": 1
+            }
+          },
+          {
+            "offset": 0.25,
+            "color": {
+              "lightness": 0.183113,
+              "chroma": 0.030892,
+              "hueDegrees": 263.383,
+              "alpha": 1
+            }
+          },
+          {
+            "offset": 0.75,
+            "color": {
+              "lightness": 0.183113,
+              "chroma": 0.030892,
+              "hueDegrees": 263.383,
+              "alpha": 1
+            }
+          },
+          {
+            "offset": 1,
+            "color": {
+              "lightness": 0.883324,
+              "chroma": 0.09815,
+              "hueDegrees": 91.702,
+              "alpha": 1
+            }
+          }
+        ],
+        "animation": {
+          "kind": 0,
+          "durationSeconds": 4,
+          "reverse": false
+        }
+      }
+    }
+  }
+}
