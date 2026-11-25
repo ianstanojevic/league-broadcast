@@ -1,9 +1,47 @@
 # Arenan – League Broadcast-stil för våra 5v5-customkvällar
 
-Ett gladiator-/arenatema för [League Broadcast](https://leaguebroadcast.gg) (gratisversionen):
-mörkblått, brons och guld, Cinzel + Barlow Condensed och gladiatorloggan.
+Vår egen stil för streamen: mörkblått, brons och guld, och gladiatorn som turneringslogga.
 
 ![Scoreboarden före och efter](share/screenshots/2-scoreboard-fore-efter.png)
+
+## Gör så här (ca 5 minuter)
+
+Du behöver bara **två filer**. Allt annat i det här repot kan du strunta i.
+
+**1. Ladda ner filerna** – klicka på länkarna så laddas de ner direkt:
+
+- **[Arenan_pre.lbstyle](share/Arenan_pre.lbstyle?raw=true)** – champ select
+- **[Arenan_in.lbstyle](share/Arenan_in.lbstyle?raw=true)** – under matchen
+
+**2. Installera League Broadcast** (gratis) från [leaguebroadcast.gg/download](https://leaguebroadcast.gg/download) och logga in.
+
+**3. Importera filerna.** Öppna **Style Editor** i menyn till vänster.
+
+- Välj fliken **Pre**. Klicka på namnet högst upp (det står *BottomRow*) → **Import Style Set** → välj `Arenan_pre.lbstyle`.
+- Välj fliken **In**. Klicka på namnet högst upp (det står *DefaultIngame*) → **Import Style Set** → välj `Arenan_in.lbstyle`.
+- Kolla att det står **Arenan** högst upp på båda flikarna. Gör det inte det: klicka på namnet och välj Arenan.
+
+**4. Lägg in i OBS.** Lägg till två källor av typen **Browser**, storlek **1920 × 1080**:
+
+| Källa | Adress |
+|---|---|
+| Champ select | `http://localhost:58869/pregame/v2` |
+| Under matchen | `http://localhost:58869/ingame/v2` |
+
+> **Glöm inte `/v2` i slutet** – annars syns inte stilen.
+
+Klart! League Broadcast måste vara igång när du streamar.
+Så här ska det se ut: [under matchen](share/screenshots/1-ingame.png) · [champ select](share/screenshots/3-champselect.png).
+
+**Ska du bara casta (prata)?** Då behöver du inte göra något av det här – bara den som kör OBS och spectatar matchen behöver det.
+
+**Fastnar du?** Hör av dig på Discord.
+
+---
+
+## För den som vill ändra stilen
+
+*Allt härifrån och neråt behövs inte för att använda stilen.*
 
 | Var | Vad som är stylat |
 |---|---|
@@ -11,16 +49,7 @@ mörkblått, brons och guld, Cinzel + Barlow Condensed och gladiatorloggan.
 | Under matchen (`/ingame/v2`) | Scoreboard, champion-flikar, färger och typsnitt på alla element |
 | Post-game | – (kräver League Broadcast Basic, ingår inte) |
 
-## Snabbstart – bara använda stilen
-
-Allt du behöver finns i [`share/`](share/). Följ [`share/INSTRUKTIONER.md`](share/INSTRUKTIONER.md):
-installera League Broadcast, importera `Arenan_pre.lbstyle` och `Arenan_in.lbstyle`
-(Style Editor → klicka på stilsetets namn → **Import Style Set**) och lägg in
-`http://localhost:58869/pregame/v2` och `http://localhost:58869/ingame/v2` som browser-källor i OBS.
-
-**Glöm inte `/v2`** – den vanliga `/ingame/` visar League Broadcasts gamla layout utan stilen.
-
-## Mappar
+### Mappar
 
 ```
 share/            det man skickar till andra: .lbstyle-filerna, instruktioner, skärmdumpar
@@ -29,7 +58,7 @@ arenan/logo/      gladiator.png (turneringsloggan) + ett eget emblem som alterna
 tools/            skript för att underhålla stilen
 ```
 
-## Verktyg (för den som vill ändra stilen)
+### Verktyg
 
 Kräver Python 3 (+ Pillow för skärmdumpar) och Node 22+.
 
@@ -41,14 +70,14 @@ Kräver Python 3 (+ Pillow för skärmdumpar) och Node 22+.
 | `node tools/capture.mjs <url> <ut.png> [sek] [selector] [antal]` | Skärmdump av en overlay i 1920×1080 (headless Edge). League Broadcast måste köra mock-data. |
 | `python tools/make_screenshots.py` | Gör delningsbilderna i `share/screenshots/` av råbilderna. |
 
-### Bra att veta om League Broadcast
+#### Bra att veta om League Broadcast
 
 - Stilarna ligger i `%APPDATA%\BlueBottle\LeagueBroadcast\data\style\`. Filer under `preset/` skrivs över varje gång appen startar – ändra bara egna kopior (Duplicate style set / Duplicate variant).
 - `customCss` på ett element läggs in som en stilmall för hela sidan, så ett `:root { --lb-overlay-… }`-block färgar om alla element.
 - Typsnitt som anges i `fontFamily` hämtar appen själv från Google Fonts.
 - Turneringsloggan gäller hela säsongen (Style Editor → Global Styles → Tournament Icon), inte ett enskilt stilset.
 
-## Begränsningar
+### Begränsningar
 
 - Testat med League Broadcasts mock-data, inte i en riktig spectatad match än.
 - Importen av `.lbstyle` är inte testad på en annan dator.
