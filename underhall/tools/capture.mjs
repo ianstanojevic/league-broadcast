@@ -1,6 +1,6 @@
 // Screenshot a League Broadcast overlay at 1920x1080 with a transparent background.
 //
-//   node tools/capture.mjs <url> <out.png> [waitSeconds=8] [selectorToWaitFor] [minVisibleCount=1]
+//   node underhall/tools/capture.mjs <url> <out.png> [waitSeconds=8] [selectorToWaitFor] [minVisibleCount=1]
 //
 // Starts a headless Edge with its own throwaway profile, waits in real time so the
 // overlay can receive live/mock data from League Broadcast, then captures the page.
@@ -11,7 +11,7 @@ import { join } from "node:path";
 
 const [url, out, waitArg = "8", selector, minArg = "1"] = process.argv.slice(2);
 if (!url || !out) {
-  console.error("usage: node tools/capture.mjs <url> <out.png> [waitSeconds] [selector]");
+  console.error("usage: node underhall/tools/capture.mjs <url> <out.png> [waitSeconds] [selector]");
   process.exit(2);
 }
 const EDGE = "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe";

@@ -8,8 +8,8 @@ Edits only the user-owned copies the app made when we duplicated them:
 The look only shows on the V2 browser sources: /ingame/v2 and /pregame/v2.
 Close League Broadcast before running. Safe to run again.
 
-    python tools/apply_arenan.py            # apply
-    python tools/apply_arenan.py --dry-run  # only print what would change
+    python underhall/tools/apply_arenan.py            # apply
+    python underhall/tools/apply_arenan.py --dry-run  # only print what would change
 """
 import json
 import math

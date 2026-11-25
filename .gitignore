@@ -1,11 +1,11 @@
 # League Broadcast's own original files (BlueBottle's) – a local backup, not ours to share
-arenan/backup-original/
+underhall/arenan/backup-original/
 
-# Raw captures; the finished images are in share/screenshots/
-share/screenshots/raw/
+# Raw captures; the finished images are in bilder/
+underhall/raw/
 
-# Build output – the repo itself is what we send now
-share/*.zip
+# Build output
+*.zip
 
 __pycache__/
 *.pyc

@@ -1,8 +1,8 @@
 """Draw the Arenan tournament emblem: a laurel wreath around two crossed swords.
 
-    python tools/make_logo.py
+    python underhall/tools/make_logo.py
 
-Writes to arenan/logo/:
+Writes to underhall/arenan/logo/:
   arenan-emblem.svg        transparent, for the overlays (they sit on night blue)
   arenan-emblem-badge.svg  on a night-blue disc with a bronze ring, for Discord, thumbnails, etc.
 """

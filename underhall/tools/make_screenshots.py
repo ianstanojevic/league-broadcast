@@ -1,16 +1,16 @@
-"""Turn raw overlay captures (from tools/capture.mjs) into images to share.
+"""Turn raw overlay captures (from underhall/tools/capture.mjs) into images to share.
 
-    python tools/make_screenshots.py
+    python underhall/tools/make_screenshots.py
 
-Reads share/screenshots/raw/{ingame,pregame}_after.png (captures of the Arenan style)
-and writes share/screenshots/1-ingame.png … 7-champselect-mitten.png (overview + close-ups).
+Reads underhall/raw/{ingame,pregame}_after.png (captures of the Arenan style)
+and writes bilder/1-ingame.png … 7-champselect-mitten.png (overview + close-ups).
 """
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
 
-ROOT = Path(__file__).resolve().parent.parent / "share" / "screenshots"
-RAW = ROOT / "raw"
+ROOT = Path(__file__).resolve().parents[2] / "bilder"      # repo root / bilder
+RAW = Path(__file__).resolve().parents[1] / "raw"          # underhall/raw (not in git)
 GOLD = (240, 215, 140)
 BRONZE = (201, 162, 74)
 MARBLE = (237, 230, 214)
