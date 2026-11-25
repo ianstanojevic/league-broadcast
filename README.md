@@ -30,12 +30,30 @@ Du behöver bara **två filer**. Allt annat i det här repot kan du strunta i.
 
 > **Glöm inte `/v2` i slutet** – annars syns inte stilen.
 
-Klart! League Broadcast måste vara igång när du streamar.
-Så här ska det se ut: [under matchen](share/screenshots/1-ingame.png) · [champ select](share/screenshots/3-champselect.png) · [champion-flikar](share/screenshots/4-champion-flikar.png) · [spelarstatistik](share/screenshots/5-spelarstatistik.png) · [objective-timers](share/screenshots/6-objective-timers.png) · [champ select, mitten](share/screenshots/7-champselect-mitten.png).
+Klart! League Broadcast måste vara igång när du streamar. Bilderna nedan visar hur det ska se ut.
 
 **Ska du bara casta (prata)?** Då behöver du inte göra något av det här – bara den som kör OBS och spectatar matchen behöver det.
 
 **Fastnar du?** Hör av dig på Discord.
+
+## Så ser det ut
+
+### Under matchen
+![Hela overlayn under matchen](share/screenshots/1-ingame.png)
+
+### Champion-flikar
+<img src="share/screenshots/4-champion-flikar.png" alt="Champion-flikar för båda lagen" width="360">
+
+### Spelarstatistik
+![Spelarstatistik längst ner](share/screenshots/5-spelarstatistik.png)
+
+### Objective-timers
+<img src="share/screenshots/6-objective-timers.png" alt="Objective-timers" width="480">
+
+### Champ select
+![Champ select-raden](share/screenshots/3-champselect.png)
+
+<img src="share/screenshots/7-champselect-mitten.png" alt="Mitten av champ select med turneringsloggan" width="560">
 
 ---
 
